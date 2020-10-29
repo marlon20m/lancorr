@@ -1,0 +1,65 @@
+import React from "react";
+import Navbar from "react-bulma-components/lib/components/navbar";
+
+function Navigation() {
+  return (
+    <nav className="navbar is-spaced" role="navigation" aria-label="main navigation">
+  <div className="navbar-brand">
+    <a className="navbar-item-img-max-height" href="https://bulma.io">
+      <img
+        className="lancorrLogo" src="https://i.ibb.co/DkLN9KG/Lan-Corr-Logo.jpg"
+        />
+    </a>
+    <a
+      role="button"
+      className="navbar-burger burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    >
+      <span aria-hidden="true" />
+      <span aria-hidden="true" />
+      <span aria-hidden="true" />
+    </a>
+  </div>
+  <div id="navbarBasicExample" className="navbar-menu">
+    <div className="navbar-end">
+      <a className="navbar-item">Início</a>
+      <a className="navbar-item">Quem Somos</a>
+      <div className="navbar-item has-dropdown is-hoverable">
+        <a className="navbar-link">Produtos</a>
+        <div className="navbar-dropdown is-right">
+          <a className="navbar-item">ADITIVOS FUNCIONAIS</a>
+          <a className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
+          <a className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</a>
+          <a className="navbar-item">MASTERBATCHES</a>
+          <a className="navbar-item">RESINAS PETROQUÍMICAS</a>
+          </div>
+          </div>
+
+        <div className="navbar-item has-dropdown is-hoverable">
+        <a className="navbar-link">Serviços</a>
+        <div className="navbar-dropdown is-right">
+          <a className="navbar-item">INDUSTRIALIZAÇAO</a>
+          <a className="navbar-item">DESENVOLVIMENTOS</a>
+        </div>
+        </div>
+
+      <div className="navbar-item has-dropdown is-hoverable">
+        <a className="navbar-link">Representações</a>
+        <div className="navbar-dropdown is-right">
+          <a className="navbar-item">BEPLAST</a>
+          <a className="navbar-item">ECO VENTURES BIOPLASTICS</a>
+          <a className="navbar-item">PRISMA</a>
+          <a className="navbar-item">TRITEC RESINAS</a>
+          <hr className="navbar-divider" />
+          </div>
+        </div>
+      </div>
+    </div>
+</nav>
+  
+  )
+}
+
+export default Navigation;

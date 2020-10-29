@@ -1,25 +1,16 @@
 import React from 'react';
-import './App.scss';
-import { Layout }from "antd";
-import Navbar from "./components/Navbar/Navbar"
-import PositionCarouselDemo from "./components/Carousel/Carousel"
-
-const { Header, Footer } = Layout;
+import Navigation from "./components/Navbar/Navigation"
+import Hero from "./components/Hero/Hero"
+import Navbar from "react-bulma-components/lib/components/navbar";
 
 
-
-function App() {
-  return (
-   <div>
-    <Header>
-    <Layout className="layout">
-    <Navbar />
-    <PositionCarouselDemo />
-    <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
-  </Layout>
-  </Header>
-   </div>
-  );
+const App = () => {
+    return (
+      <>
+      <Navigation />
+      <Hero />
+      </>
+    )
 }
 
 export default App;

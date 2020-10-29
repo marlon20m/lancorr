@@ -1,0 +1,9 @@
+.hero {
+	background: url(images/Plastic.jpg) center / cover;
+
+}
+
+
+@media (max-width: 1024px) { .hero {background: url(images/Plastic.jpg) center / cover; } }
+@media (max-width: 768px) { .hero {background: url(images/Plastic.jpg) center / cover; } }
+
