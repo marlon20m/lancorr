@@ -32,11 +32,11 @@ function Navigation() {
       <div className="navbar-item has-dropdown is-hoverable">
         <a className="navbar-link">Produtos</a>
         <div className="navbar-dropdown is-right">
-          <a className="navbar-item">ADITIVOS FUNCIONAIS</a>
-          <a className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
-          <a className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</a>
-          <a className="navbar-item">MASTERBATCHES</a>
-          <a className="navbar-item">RESINAS PETROQUÍMICAS</a>
+          <a href="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</a>
+          <a href="/Aditivosbiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
+          <a href="/Compostostermoplasticos"className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</a>
+          <a href="/Masterbatches" className="navbar-item">MASTERBATCHES</a>
+          <a href="/Resinaspetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</a>
           </div>
           </div>
 
