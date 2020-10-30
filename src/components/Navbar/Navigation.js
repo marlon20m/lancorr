@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "react-bulma-components/lib/components/navbar";
 
+
+import { Link } from 'react-router-dom'
+
 function Navigation() {
   return (
     <nav className="navbar is-spaced" role="navigation" aria-label="main navigation">
@@ -24,8 +27,8 @@ function Navigation() {
   </div>
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-end">
-      <a className="navbar-item">Início</a>
-      <a className="navbar-item">Quem Somos</a>
+      <a href="/" className="navbar-item" >Início</a>
+      <a href="/QuemSomos" className="navbar-item">Quem Somos</a>
       <div className="navbar-item has-dropdown is-hoverable">
         <a className="navbar-link">Produtos</a>
         <div className="navbar-dropdown is-right">
@@ -38,7 +41,7 @@ function Navigation() {
           </div>
 
         <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link">Serviços</a>
+        <a className="navbar-link" to="/Servicos">Serviços</a>
         <div className="navbar-dropdown is-right">
           <a className="navbar-item">INDUSTRIALIZAÇAO</a>
           <a className="navbar-item">DESENVOLVIMENTOS</a>
