@@ -6,7 +6,8 @@ import Inicio from  "./pages/Inicio";
 import QuemSomos from "./pages/QuemSomos";
 import AditivosFuncionais from  "./pages/AditivosFuncionais";
 import AditivosBiodegradaveis from "./pages/AditivosBiodegradaveis";
-import CompostosTermoplasticos from "./pages/CompostosTermoplasticos"
+import CompostosTermoplasticos from "./pages/CompostosTermoplasticos";
+import Masterbatches from "./pages/Masterbatches";
 import "./sass/main.scss";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
          <Route  path="/AditivosBiodegradaveis" exact component={AditivosBiodegradaveis} />
          <Route  path="/AditivosFuncionais" exacr  component={AditivosFuncionais} />
          <Route  path="/CompostosTermoplasticos" exact component={CompostosTermoplasticos} />
+         <Route  path="/Masterbatches" exact component={Masterbatches} />
         </Switch> 
        </div>
      </Router>
