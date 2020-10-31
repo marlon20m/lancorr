@@ -8,11 +8,11 @@ import AditivosFuncionais from  "./pages/AditivosFuncionais";
 import AditivosBiodegradaveis from "./pages/AditivosBiodegradaveis";
 import CompostosTermoplasticos from "./pages/CompostosTermoplasticos";
 import Masterbatches from "./pages/Masterbatches";
+import ResinasPetroquimicas from "./pages/ResinasPetroquimicas";
 import "./sass/main.scss";
 
 const App = () => {
     return (
-      
      <Router>
        <div>
         <Switch>
@@ -22,6 +22,7 @@ const App = () => {
          <Route  path="/AditivosFuncionais" exacr  component={AditivosFuncionais} />
          <Route  path="/CompostosTermoplasticos" exact component={CompostosTermoplasticos} />
          <Route  path="/Masterbatches" exact component={Masterbatches} />
+         <Route  path="/ResinasPetroquimicas" exact component={ResinasPetroquimicas} />
         </Switch> 
        </div>
      </Router>
