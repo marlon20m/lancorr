@@ -4,11 +4,11 @@ import "react-bulma-components/lib/components/container";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Inicio from  "./pages/Inicio";
 import QuemSomos from "./pages/QuemSomos";
-import AditivosFuncionais from  "./pages/AditivosFuncionais";
-import AditivosBiodegradaveis from "./pages/AditivosBiodegradaveis";
-import CompostosTermoplasticos from "./pages/CompostosTermoplasticos";
-import Masterbatches from "./pages/Masterbatches";
-import ResinasPetroquimicas from "./pages/ResinasPetroquimicas";
+import AditivosFuncionais from  "./pages/Produtos/AditivosFuncionais";
+import AditivosBiodegradaveis from "./pages/Produtos/AditivosBiodegradaveis";
+import CompostosTermoplasticos from "./pages/Produtos/CompostosTermoplasticos";
+import Masterbatches from "./pages/Produtos/Masterbatches";
+import ResinasPetroquimicas from "./pages/Produtos/ResinasPetroquimicas";
 import "./sass/main.scss";
 
 const App = () => {
