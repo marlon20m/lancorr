@@ -12,9 +12,10 @@ import ResinasPetroquimicas from "./pages/Produtos/ResinasPetroquimicas";
 import Industrializacao from "./pages/Servicos/Industrializacao";
 import Desenvolvimentos from "./pages/Servicos/Desenvolvimentos";
 import Beplast from "./pages/Representacoes/Beplast";
-
+import EcoVentures from "./pages/Representacoes/EcoVentures";
 
 import "./sass/main.scss";
+
 
 const App = () => {
     return (
@@ -31,6 +32,8 @@ const App = () => {
          <Route  path="/Industrializacao" exact component={Industrializacao} />
          <Route  path="/Desenvolvimentos" exact component={Desenvolvimentos} />
          <Route  path="/Beplast" exact component={Beplast} />
+         <Route  path="/EcoVentures" exact component={EcoVentures} />
+
         </Switch> 
        </div>
      </Router>
