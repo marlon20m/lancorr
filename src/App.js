@@ -11,6 +11,8 @@ import Masterbatches from "./pages/Produtos/Masterbatches";
 import ResinasPetroquimicas from "./pages/Produtos/ResinasPetroquimicas";
 import Industrializacao from "./pages/Servicos/Industrializacao";
 import Desenvolvimentos from "./pages/Servicos/Desenvolvimentos";
+import Beplast from "./pages/Representacoes/Beplast";
+
 
 import "./sass/main.scss";
 
@@ -28,6 +30,7 @@ const App = () => {
          <Route  path="/ResinasPetroquimicas" exact component={ResinasPetroquimicas} />
          <Route  path="/Industrializacao" exact component={Industrializacao} />
          <Route  path="/Desenvolvimentos" exact component={Desenvolvimentos} />
+         <Route  path="/Beplast" exact component={Beplast} />
         </Switch> 
        </div>
      </Router>
