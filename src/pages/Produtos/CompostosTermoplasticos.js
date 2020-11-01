@@ -5,9 +5,9 @@ import "../../sass/main.scss";
 
 function CompostosTermoplasticos() {
     return (
-       
+        <>
      <Navigation />
-        
+        </>
     )
 }
 

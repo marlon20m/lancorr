@@ -38,23 +38,23 @@ function Navigation() {
           <a href="/Masterbatches" className="navbar-item">MASTERBATCHES</a>
           <a href="/ResinasPetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</a>
           </div>
-          </div>
+        </div>
 
         <div className="navbar-item has-dropdown is-hoverable">
         <a className="navbar-link" to="/Servicos">Serviços</a>
         <div className="navbar-dropdown is-right">
-          <a className="navbar-item">INDUSTRIALIZAÇAO</a>
-          <a className="navbar-item">DESENVOLVIMENTOS</a>
+          <a href="/Industrializacao" className="navbar-item">INDUSTRIALIZAÇAO</a>
+          <a href="/Desenvolvimentos" className="navbar-item">DESENVOLVIMENTOS</a>
         </div>
         </div>
 
       <div className="navbar-item has-dropdown is-hoverable">
         <a className="navbar-link">Representações</a>
         <div className="navbar-dropdown is-right">
-          <a className="navbar-item">BEPLAST</a>
-          <a className="navbar-item">ECO VENTURES BIOPLASTICS</a>
-          <a className="navbar-item">PRISMA</a>
-          <a className="navbar-item">TRITEC RESINAS</a>
+          <a href="/BEPLAST" className="navbar-item">BEPLAST</a>
+          <a href="/ECOVENTURES" className="navbar-item">ECO VENTURES BIOPLASTICS</a>
+          <a href="/PRISMA" className="navbar-item">PRISMA</a>
+          <a href="/TRITECRESINAS" className="navbar-item">TRITEC RESINAS</a>
           <hr className="navbar-divider" />
           </div>
         </div>

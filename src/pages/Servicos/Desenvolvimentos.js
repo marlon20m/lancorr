@@ -3,7 +3,7 @@ import Navigation from "../../components/Navbar/Navigation";
 import "react-bulma-components/lib/components/navbar";
 import "../../sass/main.scss";
 
-function AditivosFuncionais() {
+function Desenvolvimentos() {
     return (
         <>
      <Navigation />
@@ -11,4 +11,4 @@ function AditivosFuncionais() {
     )
 }
 
-export default AditivosFuncionais;
+export default Desenvolvimentos;

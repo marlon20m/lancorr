@@ -5,9 +5,9 @@ import "../../sass/main.scss";
 
 function AditivosBiodegradaveis() {
     return (
-       
+        <>
      <Navigation />
-        
+        </>
     )
 }
 

@@ -9,6 +9,9 @@ import AditivosBiodegradaveis from "./pages/Produtos/AditivosBiodegradaveis";
 import CompostosTermoplasticos from "./pages/Produtos/CompostosTermoplasticos";
 import Masterbatches from "./pages/Produtos/Masterbatches";
 import ResinasPetroquimicas from "./pages/Produtos/ResinasPetroquimicas";
+import Industrializacao from "./pages/Servicos/Industrializacao";
+import Desenvolvimentos from "./pages/Servicos/Desenvolvimentos";
+
 import "./sass/main.scss";
 
 const App = () => {
@@ -23,6 +26,8 @@ const App = () => {
          <Route  path="/CompostosTermoplasticos" exact component={CompostosTermoplasticos} />
          <Route  path="/Masterbatches" exact component={Masterbatches} />
          <Route  path="/ResinasPetroquimicas" exact component={ResinasPetroquimicas} />
+         <Route  path="/Industrializacao" exact component={Industrializacao} />
+         <Route  path="/Desenvolvimentos" exact component={Desenvolvimentos} />
         </Switch> 
        </div>
      </Router>
