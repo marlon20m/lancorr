@@ -13,6 +13,7 @@ import Industrializacao from "./pages/Servicos/Industrializacao";
 import Desenvolvimentos from "./pages/Servicos/Desenvolvimentos";
 import Beplast from "./pages/Representacoes/Beplast";
 import EcoVentures from "./pages/Representacoes/EcoVentures";
+import Prisma from "./pages/Representacoes/Prisma";
 
 import "./sass/main.scss";
 
@@ -33,6 +34,7 @@ const App = () => {
          <Route  path="/Desenvolvimentos" exact component={Desenvolvimentos} />
          <Route  path="/Beplast" exact component={Beplast} />
          <Route  path="/EcoVentures" exact component={EcoVentures} />
+         <Route  path="/Prisma" exact component={Prisma} />
 
         </Switch> 
        </div>
