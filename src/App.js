@@ -1,6 +1,7 @@
 import React from 'react';
 import "react-bulma-components/lib/components/navbar";
 import "react-bulma-components/lib/components/container";
+import "./sass/main.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Inicio from  "./pages/Inicio";
 import QuemSomos from "./pages/QuemSomos";
@@ -14,8 +15,9 @@ import Desenvolvimentos from "./pages/Servicos/Desenvolvimentos";
 import Beplast from "./pages/Representacoes/Beplast";
 import EcoVentures from "./pages/Representacoes/EcoVentures";
 import Prisma from "./pages/Representacoes/Prisma";
+import TritecResinas from "./pages/Representacoes/TritecResinas";
 
-import "./sass/main.scss";
+
 
 
 const App = () => {
@@ -35,7 +37,7 @@ const App = () => {
          <Route  path="/Beplast" exact component={Beplast} />
          <Route  path="/EcoVentures" exact component={EcoVentures} />
          <Route  path="/Prisma" exact component={Prisma} />
-
+         <Route  path="/TritecResinas" exact component={TritecResinas} />
         </Switch> 
        </div>
      </Router>
