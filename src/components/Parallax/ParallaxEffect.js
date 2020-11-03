@@ -1,43 +1,39 @@
 import React from "react";
-import { Parallax } from 'react-parallax';
+import { Parallax, Background } from 'react-parallax';
  
 function ParallaxEffect() {
 
     return (
         <>
         <Parallax
-        blur={{ min: -15, max: 15 }}
+        
         bgImage="https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg"
         bgImageAlt="the cat"
-        strength={100}
+        strength={50}
       >
           Put some text content here
       or even an empty div with fixed dimensions
       to have a height for the parallax.
       <div style={{ height:"550px" }} />
-    </Parallax>
-     <Parallax
-     blur={{ min: -15, max: 15 }}
-     bgImage="https://i.ibb.co/h1cHZ0s/louis-reed-Je-Ink-Kl-I2-Po-unsplash.jpg"
-     bgImageSize={{height: '400px', maxWidth: '75px', opacity: '.5'}}
-     bgImageAlt="the dog"
-     strength={100}
-   >
-     Blur transition from min to max
-     <div style={{ height: '700px' }} />
-   </Parallax>
-   <Parallax
-        blur={1}
-        bgImage="https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg"
-        bgImageAlt="the cat"
-        strength={100}
-      >
-          Put some text content here
-      or even an empty div with fixed dimensions
-      to have a height for the parallax.
-      <div style={{ height:"600px" }} />
-    </Parallax>
-</>
+      </Parallax>
+      <Parallax
+        bgImage="https://i.ibb.co/ysF6xF1/shutterstock-546792490.jpg"
+        renderLayer={percentage => (
+            <div
+                style={{
+                    position: 'absolute',
+                    background: `rgba(255, 125, 0, ${percentage * 700})`,
+                    left: '50%',
+                    top: '50%',
+                    width: percentage * 500,
+                    height: percentage * 2500,
+                }}
+                />
+            )}
+        >
+            <p>... Content</p>
+        </Parallax>
+            </>
         )
 
     }
