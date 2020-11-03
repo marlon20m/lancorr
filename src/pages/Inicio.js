@@ -11,9 +11,6 @@ function Inicio() {
     return (
         <>
      <Navigation />
-     
-     <ParallaxEffect />
-     
      <Hero />
         </>
     )

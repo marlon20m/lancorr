@@ -3,13 +3,20 @@ import "react-bulma-components/lib/components/navbar";
 
 function Hero() {
   return (
-    <section className="hero is-fullheight">
+      <>
+      <section className="hero is-fullheight">
     <figure class="image is-1028x1028">
-    <img src="https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg" />
+      <img src="https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg" />
     </figure>
-        </section>
-
-  )
-}
+      </section>
+      <section className="hero is-fullheight">
+    <figure class="image is-1028x1028">
+      <img src="https://i.ibb.co/ysF6xF1/shutterstock-546792490.jpg" />
+    </figure>
+      </section>
+      </>
+        )
+      }
+      
 
 export default Hero;
