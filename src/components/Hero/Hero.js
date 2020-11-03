@@ -22,7 +22,7 @@ function Hero() {
   </div>
 </section>
     <figure class="image is-3by2">
-      <img src="https://i.ibb.co/ysF6xF1/shutterstock-546792490.jpg" />
+      <img className="masterbatchImage" src="https://i.ibb.co/ysF6xF1/shutterstock-546792490.jpg" />
     </figure>
     
       </>
