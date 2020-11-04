@@ -1,7 +1,7 @@
 @import "./my_bulma.scss";
 
 body {
-    background-color: silver;
+    background-color: #E1E7E4;
 }
 
 .navbar-burger {
@@ -12,7 +12,14 @@ body {
     object-fit: contain;
 }
 
+.hero {
+    background-color: navy;
+}
 .card {
     max-width: 100%;
     position: center;
 }
+
+.has-bg-img { background: url("https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg")center center; background-size:cover; }
+
+.has-bg-img2 { background: url("https://i.ibb.co/ysF6xF1/shutterstock-546792490.jpg")bottom left; background-size: cover; }
