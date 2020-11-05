@@ -27,7 +27,10 @@ The application will be invoked with the following command: yarn start . Make su
 ## Usage 
 ![kb usage](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)</br >
 This is a customizable readme for users to understand how important it is to use a good readme to highlight a projects features.
-          
+## Demo
+
+![Alt Text](https://i.ibb.co/xzXnSkW/Screen-Shot-2020-11-05-at-3-54-53-PM.png)
+
 ## Credits
 1 Contributor. </br > 
 Marlon Mora </br >
