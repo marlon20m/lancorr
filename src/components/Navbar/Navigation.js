@@ -17,7 +17,7 @@ function Navigation() {
       role="button"
       className="navbar-burger burger"
       aria-label="menu"
-      aria-expanded="false"
+      aria-expanded="true"
       data-target="navbarBasicExample"
     >
       <span aria-hidden="true" />

@@ -1,13 +1,16 @@
 import React from "react";
 import "react-bulma-components/lib/components/navbar";
 
-function Hero() {
+function InicioHero() {
   return (
       <>
-    <section class="hero is-large has-bg-img"> 
+    <section class="hero  is-medium has-bg-img"> 
       <div class="hero-body"> 
         <div class="container has-text-centered"> 
-        <h1 class="title">Plastics Engineering</h1> 
+        <h1 class="title is-uppercase inicio-hero-one is-capitalized 
+        has-text-weight-semibold is is-family-sans-serif 
+        is-size-1-desktop is-size-1-widescreen is-size-1-fullhd is-size-2-tablet is-size-3-mobile"
+        >engenharia quimica especializada em plasticos</h1> 
         </div> 
       </div> 
     </section>
@@ -27,7 +30,7 @@ function Hero() {
     <section class="hero is-medium has-bg-img2"> 
       <div class="hero-body"> 
         <div class="container has-text-left"> 
-          <div className="column is-one-third">
+          <div className="column is-one-third is-mobile">
         <h1 class="title">Title 1</h1> 
         <h2 class="subtitle">Exercitation irure reprehenderit pariatur reprehenderit ullamco quis tempor officia exercitation aliqua Lorem. Commodo amet ex commodo do adipisicing mollit adipisicing ipsum. Cupidatat elit consectetur elit commodo consequat aute duis pariatur cillum tempor labore anim. Enim quis anim est dolore excepteur. Id consectetur laborum occaecat consectetur magna ut labore sunt.</h2> 
           </div>
@@ -41,4 +44,4 @@ function Hero() {
       }
       
 
-export default Hero;
+export default InicioHero;
