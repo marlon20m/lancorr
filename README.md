@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lancorr 
 
-## Available Scripts
+## Description 
 
-In the project directory, you can run:
+Creating a dynamic and responsive user experience for chemical engineering company Lancorr using React, Sass and Bulma.
 
-### `yarn start`
+# Lancorr
+          
+          
+## Table of Contents :clipboard:
+          
+If your README is very long, add a table of contents to make it easy for users to find what they need.
+          
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Contributing](#Contributing)
+* [Badges](#Badges)
+* [Contact](#Contact)
+          
+          
+## :construction: Installation :construction:
+          
+The application will be invoked with the following command: yarn start . Make sure that your Node.js is installed and ready for use. 
+          
+## Usage 
+![kb usage](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)</br >
+This is a customizable readme for users to understand how important it is to use a good readme to highlight a projects features.
+## Demo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Alt Text](https://i.ibb.co/fNdH3nq/Screen-Shot-2020-11-05-at-4-04-43-PM.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Credits
+1 Contributor. </br > 
+Marlon Mora </br >
+Github: https://github.com/marlon20m https://github.com/marlon20m
+          
+## License
+          
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-### `yarn test`
+          
+Github - MIT License can be found in the License file. :file_folder:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+          
+          
+## Contributing
+          
+Marlon Mora
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+          
+## Contact :email:
+          
+![alt text](https://avatars0.githubusercontent.com/u/62806466?v=4)</br >
+marlonmora.ndr@gmail.com
+---
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
