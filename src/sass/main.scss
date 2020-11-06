@@ -1,7 +1,8 @@
 @import "./my_bulma.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-color: #E1E7E4;
+    background-color:white;
 }
 
 .navbar-burger {
@@ -24,7 +25,13 @@ body {
 
 .has-bg-img2 { background: url("https://i.ibb.co/ysF6xF1/shutterstock-546792490.jpg")bottom left; background-size: cover; }
 
-.aditivos-hero-one { background: url("https://i.ibb.co/W6N2FJn/mohan-murugesan-a-PUi7w4k-Kb-I-unsplash.jpg") center center; background-size: cover; }
+.aditivos-hero-one { 
+    background: url("https://i.ibb.co/W6N2FJn/mohan-murugesan-a-PUi7w4k-Kb-I-unsplash.jpg") center center; background-size: cover; 
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+
 
 .world-pic {
     background-size: cover; 
@@ -34,3 +41,4 @@ body {
     color: slategrey;
 }
 
+$card-header-padding: 1.75rem 1rem !default

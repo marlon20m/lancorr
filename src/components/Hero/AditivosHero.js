@@ -6,9 +6,10 @@ function AditivosHero() {
       <>
     <section class="hero is-large aditivos-hero-one is-large-mobile "> 
       <div class="hero-body"> 
-        <div class="container has-text-centered"> 
-        <h1 class="title has-text-white has-text-weight-bold is-size-1 is-size-3-mobile is-uppercase">
-        Aditivos Funcionais
+        <div class="container has-text-left"> 
+        <h1 class="title has-text-white has-text-weight-bold title-text-ah is-size-1 is-size-3-mobile is-uppercase">
+        Aditivos<br />
+        Funcionais
       </h1>
         </div> 
       </div> 

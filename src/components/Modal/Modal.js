@@ -5,8 +5,12 @@ function Modal() {
         
         return(
           <>
+          <br>
+          </br>
+          <br>
+          </br>
           <section className="container">
-            <div className="columns">
+            <div className="columns is-spaced ">
               <div className="column is-4" data-target="modal-card">
                 <div className="card is-shady">
                   <div className="card-image">
@@ -56,13 +60,17 @@ function Modal() {
               </div>
             </div>
           </section>
+          <br>
+          </br>
+          <br>
+          </br>
           <section className="container">
             <div className="columns">
               <div className="column is-4" data-target="modal-card">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="https://i.ibb.co/7SBL89W/shutterstock-223956427.jpg" alt="Placeholder image" />
+                      <img src="https://i.ibb.co/Zf9w5Jm/Screen-Shot-2020-11-06-at-2-44-48-PM.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="card-content">
@@ -77,7 +85,7 @@ function Modal() {
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="https://i.ibb.co/qBVmvxD/Screen-Shot-2020-11-06-at-12-29-14-PM.png" alt="Placeholder image" />
+                      <img src="https://i.ibb.co/hBbm2nF/Screen-Shot-2020-11-06-at-4-05-47-PM.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="card-content">
