@@ -4,7 +4,7 @@ import "react-bulma-components/lib/components/navbar";
 function InicioHero() {
   return (
       <>
-    <section class="hero  is-medium has-bg-img"> 
+    <section class="hero is-medium has-bg-img"> 
       <div class="hero-body"> 
         <div class="container has-text-centered"> 
         <h1 class="title is-uppercase inicio-hero-one is-capitalized 
