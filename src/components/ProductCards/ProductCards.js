@@ -9,9 +9,11 @@ function ProductCards() {
           </br>
           <br>
           </br>
+          
           <section className="container">
             <div className="columns is-spaced ">
               <div className="column is-4" data-target="modal-card">
+              <a href="/AditivosFuncionais" class="custom-card">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
@@ -22,17 +24,22 @@ function ProductCards() {
                     <div className="content">
                       <h4>Aditivos Funcionais</h4>
                       <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
-                      
                     </div>
                   </div>
                 </div>
-              </div><div className="column is-4" data-target="modal-card">
+                </a>
+              </div>
+              
+              
+              
+              <div className="column is-4" data-target="modal-card">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
                       <img src="https://i.ibb.co/n0TnmtS/Green-Soil.jpg" alt="Aditivos Biodegradáveis" />
                     </figure>
                   </div>
+                 
                   <div className="card-content">
                     <div className="content">
                       <h4>Aditivos Biodegradáveis</h4>
@@ -92,13 +99,14 @@ function ProductCards() {
                     <div className="content">
                       <h4>Resinas Petroquímicas</h4>
                       <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
-                      
                     </div>
                   </div>
                 </div>
-              </div>            
+              </div>
             </div>
           </section>
+          <br />
+          <br />
           
           </>
          
