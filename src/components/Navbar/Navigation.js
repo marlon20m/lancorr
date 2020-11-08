@@ -36,7 +36,6 @@ function Navigation() {
           <a href="/ResinasPetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</a>
           </div>
         </div>
-
         <div className="navbar-item has-dropdown is-hoverable">
         <a href="/Servicos" className="navbar-link" to="/Servicos">Serviços</a>
         <div className="navbar-dropdown is-right">
