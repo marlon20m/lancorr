@@ -7,9 +7,9 @@ function ProdutoHero() {
         <section class="hero is-small is-light">
             <div class="hero-body">
             <div class="container">
-                <span class="title has-text-dark produtos-font has-text-centered">
+                <h1 class="title has-text-dark produtos-font has-text-centered">
                 Produtos
-                </span>
+                </h1>
             </div>
           </div>
         </section>

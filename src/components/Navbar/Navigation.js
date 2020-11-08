@@ -29,6 +29,7 @@ function Navigation() {
       <div className="navbar-item has-dropdown is-hoverable">
         <a href="/Produtos" className="navbar-link">Produtos</a>
         <div className="navbar-dropdown is-right">
+          <a href="/Produtos" className="navbar-item">VER TODOS</a>
           <a href="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</a>
           <a href="/AditivosBiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
           <a href="/CompostosTermoplasticos"className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</a>
