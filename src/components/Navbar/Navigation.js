@@ -1,8 +1,5 @@
 import React from "react";
-import Navbar from "react-bulma-components/lib/components/navbar";
-
-
-import { Link } from 'react-router-dom'
+import "react-bulma-components/lib/components/navbar";
 
 function Navigation() {
   return (
@@ -10,10 +7,10 @@ function Navigation() {
   <div className="navbar-brand">
     <a className="navbar-item-img-max-height" href="https://bulma.io">
       <img
-        className="lancorrLogo" src="https://i.ibb.co/DkLN9KG/Lan-Corr-Logo.jpg"
+        className="lancorrLogo" src="https://i.ibb.co/DkLN9KG/Lan-Corr-Logo.jpg" alt="Logo"
         />
     </a>
-    <a
+    <a 
       role="button"
       className="navbar-burger burger"
       aria-label="menu"
@@ -30,7 +27,7 @@ function Navigation() {
       <a href="/" className="navbar-item" >Início</a>
       <a href="/QuemSomos" className="navbar-item">Quem Somos</a>
       <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link">Produtos</a>
+        <a href="/Produtos" className="navbar-link">Produtos</a>
         <div className="navbar-dropdown is-right">
           <a href="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</a>
           <a href="/AditivosBiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
@@ -41,7 +38,7 @@ function Navigation() {
         </div>
 
         <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link" to="/Servicos">Serviços</a>
+        <a href="/Servicos" className="navbar-link" to="/Servicos">Serviços</a>
         <div className="navbar-dropdown is-right">
           <a href="/Industrializacao" className="navbar-item">INDUSTRIALIZAÇAO</a>
           <a href="/Desenvolvimentos" className="navbar-item">DESENVOLVIMENTOS</a>
@@ -49,7 +46,7 @@ function Navigation() {
         </div>
 
       <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link">Representações</a>
+        <a href="/Representacoes" className="navbar-link">Representações</a>
         <div className="navbar-dropdown is-right">
           <a href="/Beplast" className="navbar-item">BEPLAST</a>
           <a href="/EcoVentures" className="navbar-item">ECO VENTURES BIOPLASTICS</a>
