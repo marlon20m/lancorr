@@ -74,6 +74,7 @@ function ProductCards() {
           <section className="container">
             <div className="columns">
               <div className="column is-4" data-target="modal-card">
+              <a href="/Masterbatches">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
@@ -84,11 +85,12 @@ function ProductCards() {
                     <div className="content">
                       <h4>Masterbatches</h4>
                       <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
-                      
                     </div>
                   </div>
                 </div>
-              </div><div className="column is-4" data-target="modal-card">
+                </a>
+              </div>
+              <div className="column is-4" data-target="modal-card">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
