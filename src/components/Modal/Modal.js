@@ -30,7 +30,7 @@ function Modal() {
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="https://i.ibb.co/wspjCM0/Screen-Shot-2020-11-06-at-1-06-13-PM.png" alt="Placeholder image" />
+                      <img src="https://i.ibb.co/n0TnmtS/Green-Soil.jpg" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="card-content">
@@ -46,7 +46,7 @@ function Modal() {
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3 world-pic">
-                      <img src="https://i.ibb.co/rHYhyq7/Screen-Shot-2020-11-06-at-1-16-55-PM.png" alt="Placeholder image" />
+                      <img src="https://i.ibb.co/qMyV1T0/pvcpipes.jpg" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="card-content">
@@ -85,7 +85,7 @@ function Modal() {
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="https://i.ibb.co/hBbm2nF/Screen-Shot-2020-11-06-at-4-05-47-PM.png" alt="Placeholder image" />
+                      <img src="https://i.ibb.co/8cF1xLw/White-Resin.jpg" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="card-content">
