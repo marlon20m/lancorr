@@ -1,15 +1,14 @@
 import React from "react";
 import "react-bulma-components/lib/components/navbar";
 
-function CompostosHero() {
+function MasterbatchesHero() {
   return (
       <>
-    <section class="hero is-large compostos-hero is-large-mobile "> 
+    <section class="hero is-large masterbatches-hero is-large-mobile "> 
       <div class="hero-body"> 
         <div class="container has-text-left"> 
         <h1 class="title has-text-white has-text-weight-bold title-text-ah is-size-1 is-size-3-mobile is-uppercase">
-        Compostos<br />
-        Termoplásticos
+        Masterbatches
       </h1>
         </div> 
       </div> 
@@ -32,4 +31,4 @@ function CompostosHero() {
       }
       
 
-export default CompostosHero;
+export default MasterbatchesHero;
