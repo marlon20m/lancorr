@@ -29,26 +29,25 @@ function ProductCards() {
                 </div>
                 </a>
               </div>
-              
-              
-              
+
               <div className="column is-4" data-target="modal-card">
+              <a href="/AditivosBiodegradaveis">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
                       <img src="https://i.ibb.co/n0TnmtS/Green-Soil.jpg" alt="Aditivos Biodegradáveis" />
                     </figure>
                   </div>
-                 
                   <div className="card-content">
                     <div className="content">
                       <h4>Aditivos Biodegradáveis</h4>
                       <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
-                      
                     </div>
                   </div>
                 </div>
+               </a>
               </div>
+
               <div className="column is-4 " data-target="modal-card">
                 <div className="card is-shady">
                   <div className="card-image">
@@ -60,7 +59,6 @@ function ProductCards() {
                     <div className="content">
                       <h4>Compostos Termoplásticos</h4>
                       <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
-                      
                     </div>
                   </div>
                 </div>
