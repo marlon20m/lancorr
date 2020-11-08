@@ -46,7 +46,7 @@ function Navigation() {
         </div>
 
       <div className="navbar-item has-dropdown is-hoverable">
-        <a href="/Representacoes" className="navbar-link">Representações</a>
+        <a href="/Representacoes" className="navbar-link" >Representações</a>
         <div className="navbar-dropdown is-right">
           <a href="/Beplast" className="navbar-item">BEPLAST</a>
           <a href="/EcoVentures" className="navbar-item">ECO VENTURES BIOPLASTICS</a>
