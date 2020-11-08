@@ -5,6 +5,7 @@ import "./sass/main.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Inicio from  "./pages/Inicio";
 import QuemSomos from "./pages/QuemSomos";
+import Produtos from "./pages/Produtos/Produtos"
 import AditivosFuncionais from  "./pages/Produtos/AditivosFuncionais";
 import AditivosBiodegradaveis from "./pages/Produtos/AditivosBiodegradaveis";
 import CompostosTermoplasticos from "./pages/Produtos/CompostosTermoplasticos";
@@ -26,6 +27,7 @@ const App = () => {
         <Switch>
          <Route  path="/" exact component={Inicio} />
          <Route  path="/QuemSomos" exact component={QuemSomos} />
+         <Route  path="/Produtos" exact component={Produtos} />
          <Route  path="/AditivosBiodegradaveis" exact component={AditivosBiodegradaveis} />
          <Route  path="/AditivosFuncionais" exacr  component={AditivosFuncionais} />
          <Route  path="/CompostosTermoplasticos" exact component={CompostosTermoplasticos} />
