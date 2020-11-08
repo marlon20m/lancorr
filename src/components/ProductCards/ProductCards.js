@@ -91,6 +91,7 @@ function ProductCards() {
                 </a>
               </div>
               <div className="column is-4" data-target="modal-card">
+              <a href="/ResinasPetroquimicas">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
@@ -104,6 +105,7 @@ function ProductCards() {
                     </div>
                   </div>
                 </div>
+               </a>
               </div>
             </div>
           </section>
