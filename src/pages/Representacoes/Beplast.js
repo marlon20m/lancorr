@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from "../../components/Navbar/Navigation";
 import BeplastHero from "../../components/Hero/BeplastHero";
+import RepresentCards from "../../components/RepresentCards/RepresentCards";
 import "react-bulma-components/lib/components/navbar";
 import "../../sass/main.scss";
 
@@ -10,6 +11,7 @@ function Beplast() {
        <>
      <Navigation />
      <BeplastHero />
+     <RepresentCards />
        </>
     )
   }    
