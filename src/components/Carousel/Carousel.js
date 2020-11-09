@@ -2,9 +2,21 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
+
+
+
 function DemoCarousel() {
         return (
-            <Carousel>
+
+            <Carousel autoPlay={true}
+            showArrows={false}
+            infiniteLoop={true}
+            interval={4000}
+            stopOnHover={false}
+            showThumbs={false}
+            showStatus={false}
+            showIndicators={false}>
+                
                 <div>
                 <section class="hero carousel-inicio is-medium has-bg-img"> 
                 <div class="hero-body"> 
