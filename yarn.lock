@@ -2886,6 +2886,11 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
+bulma-carousel@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/bulma-carousel/-/bulma-carousel-4.0.4.tgz#96a2e93e6042d196cb064b9a1ea48ca4db4bb030"
+  integrity sha512-fxARvrPZ0meiVMkxI1ayK2RBd9YUNPc7FFnDpD+SgPnQdZgW+VAvHM8YdR3BJfnmR9lNWNqfKR/hk7Ko0GP2tA==
+
 bulma@0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.8.2.tgz#5d928f16ed4a84549c2873f95c92c38c69c631a7"
@@ -9243,7 +9248,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9844,6 +9849,13 @@ react-dom@^16.14.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
+react-easy-swipe@^0.0.21:
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/react-easy-swipe/-/react-easy-swipe-0.0.21.tgz#ce9384d576f7a8529dc2ca377c1bf03920bac8eb"
+  integrity sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg==
+  dependencies:
+    prop-types "^15.5.8"
+
 react-error-overlay@^6.0.7:
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"
@@ -9868,6 +9880,15 @@ react-parallax@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/react-parallax/-/react-parallax-3.1.2.tgz#789fa6d70452507a6d9a43d495d3459038eeb028"
   integrity sha512-V4VmFh7JeYNX6rRFv/SNC1XKhsAn+3Ny8a/1rp+xgQ0SBF1zsTTUbhBxG7XNem89A06NVe3R5l6m9r5S2RRHxg==
+
+react-responsive-carousel@^3.2.10:
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/react-responsive-carousel/-/react-responsive-carousel-3.2.10.tgz#2de13bdc131d78b8b92d3653d295a77d8c20cf2e"
+  integrity sha512-O8MV2LoR07BttvWaXesyWkE6s8xRW6p6HiMkelZ3TuPYQwKnlw+fYtZN+bQ3/1jg0D5JQGATY4Hnw/4WEXHnag==
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.5.8"
+    react-easy-swipe "^0.0.21"
 
 react-router-dom@^5.2.0:
   version "5.2.0"

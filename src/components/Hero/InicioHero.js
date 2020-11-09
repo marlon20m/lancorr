@@ -1,9 +1,13 @@
 import React from "react";
 import "react-bulma-components/lib/components/navbar";
 
+
+
+
 function InicioHero() {
   return (
       <>
+   
       <section class="hero inicial-hero-homepage is-large has-bg-img"> 
       <div class="hero-body"> 
         <div class="container has-text-left"> 

@@ -1,6 +1,8 @@
 @import "./my_bulma.scss";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Lato&family=Montserrat:wght@600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js");
+
 body {
     background-color:white;
 }
@@ -82,7 +84,6 @@ span {
 }
 
 
-
 .world-pic {
     background-size: cover; 
 }
@@ -91,12 +92,15 @@ span {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 5px black;
-
 }
 
 .inicial-hero-homepage {
     background: url("https://i.ibb.co/9sDSyv0/shutterstock-1007708014.jpg") center center; background-size: cover; 
 
+}
+
+.carousel-inicio {
+    background: url("https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg") center center; background-size: cover; 
 }
 
 $card-header-padding: 1.75rem 1rem !default
