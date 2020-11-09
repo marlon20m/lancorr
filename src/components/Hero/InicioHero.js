@@ -6,24 +6,28 @@ function InicioHero() {
       <>
     <section class="hero is-medium has-bg-img"> 
       <div class="hero-body"> 
-        <div class="container has-text-centered"> 
-        <h1 class="title is-uppercase inicio-hero-one is-capitalized 
-        has-text-weight-semibold is is-family-sans-serif 
+        <div class="container has-text-left"> 
+        <h1 class="title inicio-hero-one
         is-size-1-desktop is-size-1-widescreen is-size-1-fullhd is-size-2-tablet is-size-3-mobile"
-        >engenharia quimica especializada em plasticos</h1> 
+        >Produtos e Servicos <br />Para Transformacao <br />de Plasticos</h1> 
         </div> 
       </div> 
     </section>
-    <section class="hero is-medium is-bold">
+    <section class="hero is-small is-bold">
   <div class="hero-body">
     <div class="container">
+      <br />
+      <br />
       <h1 class="title has-text-white">
         Esse aliqua ad eiusmod non Lorem do ut deserunt.
       </h1>
+      
       <h2 class="subtitle has-text-white">
         Do tempor id consectetur magna proident elit sit labore consectetur do.
         Irure laborum ea magna ipsum id quis cillum irure. Culpa reprehenderit aute occaecat reprehenderit aute non in incididunt nulla. Nostrud velit adipisicing culpa incididunt ipsum. Laborum qui aute sit elit laborum sint adipisicing sint ut veniam elit ullamco ipsum. In aute commodo sunt aute ea velit nisi nulla et nulla velit et consequat ad.
       </h2>
+      <br />
+      <br />
     </div>
   </div>
 </section>

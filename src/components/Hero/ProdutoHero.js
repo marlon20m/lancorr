@@ -4,10 +4,10 @@ import "react-bulma-components/lib/components/navbar";
 function ProdutoHero() {
   return (
         <>
-        <section class="hero is-small is-light">
+        <section class="hero is-small produtos-hero">
             <div class="hero-body">
             <div class="container">
-                <h1 class="title has-text-dark produtos-font has-text-centered">
+                <h1 class="title produtos-font has-text-centered">
                 Produtos
                 </h1>
             </div>

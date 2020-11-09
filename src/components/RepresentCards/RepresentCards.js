@@ -5,8 +5,6 @@ function RepresentCards() {
         
         return(
             <>
-     
-        
         <section className="blog-posts">
           <div className="container">
             <div className="columns">
