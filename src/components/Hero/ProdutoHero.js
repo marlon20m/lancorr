@@ -7,10 +7,11 @@ function ProdutoHero() {
         <section class="hero is-small produtos-hero">
             <div class="hero-body">
             <div class="container">
+              <br />
                 <h1 class="title produtos-font has-text-centered">
                 Produtos
                 </h1>
-                <hr />
+               <br />
             </div>
           </div>
         </section>
