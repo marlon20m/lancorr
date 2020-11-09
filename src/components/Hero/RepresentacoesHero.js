@@ -1,7 +1,7 @@
 import React from "react";
 import "react-bulma-components/lib/components/navbar";
 
-function BeplastHero() {
+function Representações() {
   return (
       <>
     <section class="hero is-small beplast-hero-one is-large-mobile "> 
@@ -19,4 +19,4 @@ function BeplastHero() {
       }
       
 
-export default BeplastHero;
+export default Representações;
