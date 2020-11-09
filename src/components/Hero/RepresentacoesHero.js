@@ -10,9 +10,11 @@ function Representações() {
         <h1 class="title has-text-centered beplast-hero has-text-weight-bold title-text-ah is-size-2 is-size-3-mobile is-uppercase">
         Representações
         </h1>
+        <hr />
         </div> 
       </div> 
     </section>
+    
     
       </>
         )

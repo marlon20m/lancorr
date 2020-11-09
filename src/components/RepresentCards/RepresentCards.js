@@ -102,15 +102,13 @@ function RepresentCards() {
                       <div className="column is-5 featured-content va">
                         <div>
                           <h3 className="heading post-category">Company Name</h3>
-                          <h1 className="title post-title has-text-link">Eco Ventures Bioplastics</h1>
+                          <h1 className="title post-title has-text-link">Tritec Resinas</h1>
                           <p className="post-excerpt">This template is based off of the official default blog template created by the fine folks over at <a href="https://ghost.io">Ghost</a>. If you are looking for a fully featured blog platform, I highly recommend checking them out!</p>
                           <br />
-                          <a href="#" className="button is-primary">Website</a>
+                         
                         </div>
                       </div>
-                      <div className="column is-7 post-img ">
-                        <img src="https://i.ibb.co/fpbdWM4/Screen-Shot-2020-11-08-at-8-57-25-PM.png" alt="Eco Ventures Bioplastics" />
-                      </div>
+                      
                     </article>
                   </div>
                 </div>

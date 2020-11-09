@@ -7,9 +7,13 @@ function InicioHero() {
     <section class="hero is-medium has-bg-img"> 
       <div class="hero-body"> 
         <div class="container has-text-left"> 
-        <h1 class="title inicio-hero-one
-        is-size-1-desktop is-size-1-widescreen is-size-1-fullhd is-size-2-tablet is-size-3-mobile"
-        >Produtos e Servicos <br />Para Transformacao <br />de Plasticos</h1> 
+        <br />
+       
+        <h1 class="title has-text-white has-text-centered inicio-hero-one is-size-2 is-uppercase">
+      Produtos e Serviços Para <br /> Transformação de Plásticos
+      </h1>
+        <br />
+        <br />
         </div> 
       </div> 
     </section>
@@ -17,11 +21,7 @@ function InicioHero() {
   <div class="hero-body">
     <div class="container">
       <br />
-      <br />
-      <h1 class="title has-text-white">
-        Esse aliqua ad eiusmod non Lorem do ut deserunt.
-      </h1>
-      
+      <h1 class="title has-text-white">Occaecat non exercitation quis ullamco laborum.</h1>
       <h2 class="subtitle has-text-white">
         Do tempor id consectetur magna proident elit sit labore consectetur do.
         Irure laborum ea magna ipsum id quis cillum irure. Culpa reprehenderit aute occaecat reprehenderit aute non in incididunt nulla. Nostrud velit adipisicing culpa incididunt ipsum. Laborum qui aute sit elit laborum sint adipisicing sint ut veniam elit ullamco ipsum. In aute commodo sunt aute ea velit nisi nulla et nulla velit et consequat ad.
