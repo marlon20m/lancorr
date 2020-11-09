@@ -10,6 +10,7 @@ function ProdutoHero() {
                 <h1 class="title produtos-font has-text-centered">
                 Produtos
                 </h1>
+                <hr />
             </div>
           </div>
         </section>
