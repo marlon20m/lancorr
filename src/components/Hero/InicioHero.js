@@ -8,8 +8,7 @@ function InicioHero() {
       <div class="hero-body"> 
         <div class="container has-text-left"> 
         <br />
-       
-        <h1 class="title has-text-white has-text-centered inicio-hero-one is-size-2 is-uppercase">
+        <h1 class="title has-text-white has-text-left inicio-hero-one is-size-2 is-uppercase">
       Produtos e Serviços Para <br /> Transformação de Plásticos
       </h1>
         <br />
