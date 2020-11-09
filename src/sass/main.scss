@@ -63,21 +63,25 @@ span {
 }
 
 .produtos-hero {
-    background-color: white;
-    background: url("https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg"); background-size:cover;
+    background-color: lightgrey;
 
 }
 
+
+
 .title.beplast-hero {
-   color: navy;
+   color: white;
    font-size: 25px;
-  
+   font-family: 'Montserrat', sans-serif;
+   text-shadow: 2px 2px 5px grey;
 }
 
 .beplast-hero-one {
     background-color: white;
-    
+   
 }
+
+
 
 .world-pic {
     background-size: cover; 
@@ -87,6 +91,11 @@ span {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 5px black;
+
+}
+
+.inicial-hero-homepage {
+    background: url("https://i.ibb.co/9sDSyv0/shutterstock-1007708014.jpg") center center; background-size: cover; 
 
 }
 

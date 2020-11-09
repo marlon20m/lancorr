@@ -3,7 +3,7 @@ import "react-bulma-components/lib/components/navbar";
 
 function Navigation() {
   return (
-    <nav className="navbar is-spaced" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-spaced navbar-bg" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
     <a className="navbar-item-img-max-height" href="https://bulma.io">
       <img
