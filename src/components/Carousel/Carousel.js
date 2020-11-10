@@ -49,11 +49,18 @@ function DemoCarousel() {
                   </section>
                 </div>
                 
-                
-                <div>
-                    <img src="" />
-                    <p className="legend">Legend 3</p>
-                </div>
+                <section class="hero third-carousel-homepage is-medium has-bg-img"> 
+                <div class="hero-body"> 
+                 <div class="container has-text-left"> 
+                    <br />
+                      <h1 class="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
+                        Produtos e Serviços Para <br /> Transformação de Plásticos
+                      </h1>
+                        <br />
+                       <br />
+                      </div> 
+                    </div> 
+                  </section>
             </Carousel>
         );
     }

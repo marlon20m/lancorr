@@ -7,8 +7,6 @@ import "react-bulma-components/lib/components/navbar";
 function InicioHero() {
   return (
       <>
-   
-      
     
     <section class="hero is-small is-bold">
   <div class="hero-body">
