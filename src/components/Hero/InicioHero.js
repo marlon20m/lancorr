@@ -8,30 +8,8 @@ function InicioHero() {
   return (
       <>
    
-      <section class="hero inicial-hero-homepage is-large has-bg-img"> 
-      <div class="hero-body"> 
-        <div class="container has-text-left"> 
-        <br />
-        <h1 class="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
-      Produtos e Serviços Para <br /> Transformação de Plásticos
-      </h1>
-        <br />
-        <br />
-        </div> 
-      </div> 
-    </section>
-    <section class="hero is-medium has-bg-img"> 
-      <div class="hero-body"> 
-        <div class="container has-text-left"> 
-        <br />
-        <h1 class="title has-text-white has-text-left inicio-hero-one is-size-2 is-uppercase">
-      Produtos e Serviços Para <br /> Transformação de Plásticos
-      </h1>
-        <br />
-        <br />
-        </div> 
-      </div> 
-    </section>
+      
+    
     <section class="hero is-small is-bold">
   <div class="hero-body">
     <div class="container">

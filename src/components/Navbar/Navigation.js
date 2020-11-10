@@ -56,6 +56,7 @@ function Navigation() {
           <hr className="navbar-divider" />
           </div>
         </div>
+        <a href="/Contato" className="navbar-item" >Contato</a>
       </div>
     </div>
 </nav>

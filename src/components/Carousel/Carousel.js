@@ -11,8 +11,8 @@ function DemoCarousel() {
             <Carousel autoPlay={true}
             showArrows={true}
             infiniteLoop={true}
-            interval={3500}
-            stopOnHover={true}
+            interval={4500}
+            stopOnHover={false}
             swipeable={true}
             showThumbs={false}
             showStatus={false}
