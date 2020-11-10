@@ -1,14 +1,18 @@
 import React from 'react';
 import Navigation from "../../components/Navbar/Navigation";
-import EcoVenturesHero from "../../components/Hero/EcoVenturesHero";
+import BeplastHero from "../../components/Hero/RepresentacoesHero";
+import EcoVenturesCard from "../../components/RepresentCards/EcoVenturesCard";
 import "react-bulma-components/lib/components/navbar";
 import "../../sass/main.scss";
+
+
 
 function EcoVentures() {
     return (
         <>
      <Navigation />
-     <EcoVenturesHero />
+     <BeplastHero />
+     <EcoVenturesCard />
         </>
     )
 }

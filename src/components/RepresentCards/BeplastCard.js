@@ -1,11 +1,13 @@
 import React from "react";
 import "react-bulma-components/lib/components/navbar";
 
-function RepresentCards() {
+function BeplastCard() {
         
         return(
             <>
-        <section className="blog-posts">
+            <br />
+            <br />
+        <section className="blog-posts color-container" id={"section1"}>
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
@@ -33,9 +35,7 @@ function RepresentCards() {
             </div>
           </div>
           </section>
-            <br />
-            <br />
-          <section className="blog-posts">
+          <section className="blog-posts" id={"section2"}>
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
@@ -63,7 +63,7 @@ function RepresentCards() {
             </div>
           </div>
           </section>
-          <section className="blog-posts">
+          <section className="blog-posts" id={"section3"}>
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
@@ -93,7 +93,7 @@ function RepresentCards() {
             </div>
           </div>
           </section>
-          <section className="blog-posts">
+          <section className="blog-posts" id={"section4"}>
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
@@ -127,4 +127,4 @@ function RepresentCards() {
         )
 }
 
-export default RepresentCards;
+export default BeplastCard;

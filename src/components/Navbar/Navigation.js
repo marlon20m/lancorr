@@ -49,10 +49,12 @@ function Navigation() {
       <div className="navbar-item has-dropdown is-hoverable">
         <a href="/Representacoes" className="navbar-link" >Representações</a>
         <div className="navbar-dropdown is-right">
-          <a href="/Beplast" className="navbar-item">BEPLAST</a>
-          <a href="/EcoVentures" className="navbar-item">ECO VENTURES BIOPLASTICS</a>
-          <a href="/Prisma" className="navbar-item">PRISMA</a>
-          <a href="/TritecResinas" className="navbar-item">TRITEC RESINAS</a>
+          <a href="/Beplast/#section1" className="navbar-item">BEPLAST</a>
+          <a href="/EcoVentures/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</a>
+          <a href="/Prisma/#section3" className="navbar-item">PRISMA</a>
+          <a href="/TritecResinas/#section4" className="navbar-item">TRITEC RESINAS</a>
+          <a href="/Representacoes" className="navbar-item" >VER TODOS</a>
+
           <hr className="navbar-divider" />
           </div>
         </div>

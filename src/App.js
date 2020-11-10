@@ -17,6 +17,7 @@ import Beplast from "./pages/Representacoes/Beplast";
 import EcoVentures from "./pages/Representacoes/EcoVentures";
 import Prisma from "./pages/Representacoes/Prisma";
 import TritecResinas from "./pages/Representacoes/TritecResinas";
+import Representacoes from "./pages/Representacoes/Representacoes"
 import Footer from "./components/Footer/Footer"
 
 
@@ -35,6 +36,7 @@ const App = () => {
          <Route  path="/ResinasPetroquimicas" exact component={ResinasPetroquimicas} />
          <Route  path="/Industrializacao" exact component={Industrializacao} />
          <Route  path="/Desenvolvimentos" exact component={Desenvolvimentos} />
+         <Route  path="/Representacoes" exact component={Representacoes} />
          <Route  path="/Beplast" exact component={Beplast} />
          <Route  path="/EcoVentures" exact component={EcoVentures} />
          <Route  path="/Prisma" exact component={Prisma} />
