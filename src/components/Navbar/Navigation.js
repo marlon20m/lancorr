@@ -29,12 +29,13 @@ function Navigation() {
       <div className="navbar-item has-dropdown is-hoverable">
         <a href="/Produtos" className="navbar-link">Produtos</a>
         <div className="navbar-dropdown is-right">
-          <a href="/Produtos" className="navbar-item">VER TODOS</a>
+          
           <a href="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</a>
           <a href="/AditivosBiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
           <a href="/CompostosTermoplasticos"className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</a>
           <a href="/Masterbatches" className="navbar-item">MASTERBATCHES</a>
           <a href="/ResinasPetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</a>
+          <a href="/Produtos" className="navbar-item">VER TODOS</a>
           </div>
         </div>
         <div className="navbar-item has-dropdown is-hoverable">
@@ -58,7 +59,6 @@ function Navigation() {
       </div>
     </div>
 </nav>
-  
   )
 }
 

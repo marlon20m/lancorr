@@ -9,13 +9,16 @@ function DemoCarousel() {
         return (
 
             <Carousel autoPlay={true}
-            showArrows={false}
+            showArrows={true}
             infiniteLoop={true}
-            interval={4000}
-            stopOnHover={false}
+            interval={3500}
+            stopOnHover={true}
+            swipeable={true}
             showThumbs={false}
             showStatus={false}
-            showIndicators={false}>
+            showIndicators={true}
+            transitionTime={650}
+            emulateTouch={true}>
                 
                 <div>
                 <section class="hero carousel-inicio is-medium has-bg-img"> 
