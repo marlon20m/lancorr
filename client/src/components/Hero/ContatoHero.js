@@ -42,7 +42,8 @@ export default class ContatoHero extends Component {
       this.setState({ 
         sent:true,
       },this.resetForm)
-    }).catch(()=> {
+    })
+    .catch(()=> {
     console.log("message not sent")
   })
 }
@@ -69,7 +70,7 @@ resetForm = () => {
 	     <>
         <section className="hero is-white is-fullheight">
           <div className="hero-body">
-            <div className="container has-text-centered">
+            <form onSubmit={this.formSubmit}  className="container has-text-centered">
               <div className="columns is-8 is-variable ">
                 <div className="column is-two-thirds has-text-left">
                   <h1 className="title is-1">Contatenos</h1>
@@ -94,6 +95,7 @@ resetForm = () => {
                       type="text"
                       value={this.state.email} 
                       onChange={this.handleEmail}
+                      required
                        />
                     </div>
                   </div>
@@ -102,18 +104,18 @@ resetForm = () => {
                     <div className="control">
                       <textarea id="text" 
                       className="textarea is-medium" 
-                      defaultValue={""} 
                       value={this.state.message} 
                       onChange={this.handleMessage} 
                       />
                     </div>
                   </div>
-                  <div className="control">
+                    <div className={this.state.sent ?"msg msgAppear" : "msg"}>Message has been sent</div>
+                  <div className="control" >
                     <button type="submit" value="submit" className="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
                   </div>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </section>
       </>
