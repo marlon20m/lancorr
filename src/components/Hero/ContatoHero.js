@@ -1,11 +1,39 @@
-import React from "react";
-import nodemailer from "nodemailer";
+import React, { Component } from "react";
 import "react-bulma-components/lib/components/navbar";
 
-function ContatoHero() {
+
+
+export default class ContatoHero extends Component {
+
+  state={
+    name:"",
+    email:"",
+    message:"",
+    sent: false
+  }
+  
+  handleName = (e) => {
+    this.setState({
+      name:e.target.value
+    })
+  }
+  
+  handleEmail = (e) => {
+    this.setState({
+      email:e.target.value
+    })
+  }
+  
+  handleMessage = (e) => {
+    this.setState({
+      message:e.target.value
+    })
+  }
+  
+  render() {
   return (
     
-	<div>
+	     <>
         <section className="hero is-white is-fullheight">
           <div className="hero-body">
             <div className="container has-text-centered">
@@ -19,33 +47,45 @@ function ContatoHero() {
                   <div className="field">
                     <label className="label">Name</label>
                     <div className="control">
-                      <input className="input is-medium" type="text" />
+                      <input className="input is-medium" 
+                      type="text" 
+                      placeholder="Nome"
+                      value={this.state.name} 
+                      onChange={this.handleName} />
                     </div>
                   </div>
                   <div className="field">
-                    <label className="label">Email</label>
+                    <label id="email" className="label">Email</label>
                     <div className="control">
-                      <input className="input is-medium" type="text" />
+                      <input className="input is-medium" 
+                      type="text"
+                      value={this.state.email} 
+                      onChange={this.handleEmail}
+                       />
                     </div>
                   </div>
                   <div className="field">
-                    <label className="label">Message</label>
+                    <label id="text" className="label">Message</label>
                     <div className="control">
-                      <textarea className="textarea is-medium" defaultValue={""} />
+                      <textarea id="text" 
+                      className="textarea is-medium" 
+                      defaultValue={""} 
+                      value={this.state.message} 
+                      onChange={this.handleMessage} 
+                      />
                     </div>
                   </div>
                   <div className="control">
-                    <button type="submit" className="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
+                    <button type="submit" value="submit" className="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-      </div>
+      </>
   
             )
           }
-      
-
-export default ContatoHero;
+    
+        }
