@@ -5,7 +5,7 @@ import "./sass/main.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Inicio from  "./pages/Inicio";
 import QuemSomos from "./pages/QuemSomos";
-import Produtos from "./pages/Produtos/Produtos"
+import Produtos from "./pages/Produtos/Produtos";
 import AditivosFuncionais from  "./pages/Produtos/AditivosFuncionais";
 import AditivosBiodegradaveis from "./pages/Produtos/AditivosBiodegradaveis";
 import CompostosTermoplasticos from "./pages/Produtos/CompostosTermoplasticos";
@@ -17,8 +17,9 @@ import Beplast from "./pages/Representacoes/Beplast";
 import EcoVentures from "./pages/Representacoes/EcoVentures";
 import Prisma from "./pages/Representacoes/Prisma";
 import TritecResinas from "./pages/Representacoes/TritecResinas";
-import Representacoes from "./pages/Representacoes/Representacoes"
-import Footer from "./components/Footer/Footer"
+import Representacoes from "./pages/Representacoes/Representacoes";
+import Contato from "./pages/Contato/Contato";
+import Footer from "./components/Footer/Footer";
 
 
 const App = () => {
@@ -41,6 +42,7 @@ const App = () => {
          <Route  path="/EcoVentures" exact component={EcoVentures} />
          <Route  path="/Prisma" exact component={Prisma} />
          <Route  path="/TritecResinas" exact component={TritecResinas} />
+         <Route  path="/Contato" exact component={Contato} />
         </Switch> 
         <Footer />
        </div>
