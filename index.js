@@ -25,6 +25,7 @@ app.post("/api/form", (req, res) => {
         }
     })
 
+
 let mailOptions = {
     from: data.email,
     to: "marlonmora.ndr@gmail.com",
@@ -66,3 +67,4 @@ const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
 })
+
