@@ -9,11 +9,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
 
-app.get("/", () => {
-    resizeBy.send("welcome to my contact form")
+app.get('/', () => {
+   resizeBy.send("welcome to my contact form")
 })
 
-app.post("/api/form", (req,res) => {
+app.post("/api/form", (req, res) => {
+
     let data = req.body
     let smtpTransport = nodemailer.createTransport({
         service: "Gmail",
@@ -22,28 +23,32 @@ app.post("/api/form", (req,res) => {
             user: "marlonmora.ndr@gmail.com",
             pass: "Smoothie101018_"
         }
-    });
+    })
 
 let mailOptions = {
     from: data.email,
     to: "marlonmora.ndr@gmail.com",
-    subject: `"Message from ${data.name}`,
+    subject: `Message from ${data.name}`,
     html:`
     
-    <h3>Information</h3>
+    <h3>Mensagem de Lancorr.com</h3>
         <ul>
         <li>Name: ${data.name}</li>
-        <li>Name: ${data.email}</li>
-        <li>Name: ${data.message}</li>
+        <br></br>
+        <li>Email: ${data.email}</li>
+        <br></br>
+        <li>Message: ${data.message}</li>
+        <br></br>
         </ul>
 
-        <h3>Message</h3>
-        <p>${data.message}</p>
+    <h3>Mensagem</h3>
+        <h4>${data.message}</h4>
 
     `
 }
 
-smtpTransport.sendMail(mailOptions, (error, response)=>{
+smtpTransport.sendMail(mailOptions, (error,response)=>{
+
         if(error){
             res.send(error)
         }
@@ -58,7 +63,6 @@ smtpTransport.close();
 })
 
 const PORT = process.env.PORT || 3001;
-
-app.listen(PORT, () =>{
-    console.log(`server starting at port ${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Server listening on port ${PORT}`)
 })

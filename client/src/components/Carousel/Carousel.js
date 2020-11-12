@@ -21,11 +21,11 @@ function DemoCarousel() {
             emulateTouch={true}>
                 
                 <div>
-                <section class="hero carousel-inicio is-medium has-bg-img"> 
-                <div class="hero-body"> 
-                    <div class="container has-text-left"> 
+                <section className="hero carousel-inicio is-medium has-bg-img"> 
+                <div className="hero-body"> 
+                    <div className="container has-text-left"> 
                     <br />
-                    <h1 class="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
+                    <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
                 Produtos e Serviços Para <br /> Transformação de Plásticos
                 </h1>
                     <br />
@@ -35,11 +35,11 @@ function DemoCarousel() {
                 </section>
                 </div>
             <div>
-              <section class="hero inicial-hero-homepage is-medium has-bg-img"> 
-                <div class="hero-body"> 
-                 <div class="container has-text-left"> 
+              <section className="hero inicial-hero-homepage is-medium has-bg-img"> 
+                <div className="hero-body"> 
+                 <div className="container has-text-left"> 
                     <br />
-                      <h1 class="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
+                      <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
                         Produtos e Serviços Para <br /> Transformação de Plásticos
                       </h1>
                         <br />
@@ -49,11 +49,11 @@ function DemoCarousel() {
                   </section>
                 </div>
                 
-                <section class="hero third-carousel-homepage is-medium has-bg-img"> 
-                <div class="hero-body"> 
-                 <div class="container has-text-left"> 
+                <section className="hero third-carousel-homepage is-medium has-bg-img"> 
+                <div className="hero-body"> 
+                 <div className="container has-text-left"> 
                     <br />
-                      <h1 class="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
+                      <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
                         Produtos e Serviços Para <br /> Transformação de Plásticos
                       </h1>
                         <br />
