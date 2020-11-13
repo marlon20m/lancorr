@@ -22,7 +22,7 @@ If your README is very long, add a table of contents to make it easy for users t
           
 ## :construction: Installation :construction:
           
-The application will be invoked with the following command: yarn start . Make sure that your Node.js is installed and ready for use. 
+The application will be invoked with the following command: npm run dev    in development mode. Make sure that your Node.js is installed and ready for use. 
           
 ## Usage 
 ![kb usage](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)</br >
