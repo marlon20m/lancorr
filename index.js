@@ -13,7 +13,8 @@ app.use(cors());
 
 app.get('/', (req, res, next) => {
     res.json({message: "welcome to my contact form"});
-})
+});
+
 
 
 app.post("/api/form", (req, res) => {
