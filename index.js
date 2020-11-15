@@ -68,9 +68,10 @@ if (environment === "production") {
   app.use(express.static("client/build"));
 }
 
-})
 
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
+})
+
 })
