@@ -13,8 +13,7 @@ app.use(cors());
 
 app.get('/', (req, res, next) => {
     res.json({message: "welcome to my contact form"});
-});
-
+})
 
 
 app.post("/api/form", (req, res) => {
@@ -69,10 +68,9 @@ if (environment === "production") {
   app.use(express.static("client/build"));
 }
 
+})
 
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
-})
-
 })
