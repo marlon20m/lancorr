@@ -1,5 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const environment = process.env.NODE_ENV || "development";
+const PORT = process.env.PORT || 3001;
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 
@@ -61,11 +63,14 @@ smtpTransport.sendMail(mailOptions, (error,response)=>{
 
 smtpTransport.close();
 
-
+console.log(process.env.NODE_ENV);
+if (environment === "production") {
+  app.use(express.static("client/build"));
+}
 
 })
 
-const PORT = process.env.PORT || 3001;
+
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
 })
