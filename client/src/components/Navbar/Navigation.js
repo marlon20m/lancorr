@@ -66,7 +66,7 @@ function Navigation() {
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-end">
       <a href="/" className="navbar-item" >Início</a>
-      <NavLink as={RouterNavLink} href="/QuemSomos" className="navbar-item">Quem Somos</NavLink>
+      <Nav.Link as={RouterNavLink} href="/QuemSomos" className="navbar-item">Quem Somos</Nav.Link>
       <div className="navbar-item has-dropdown is-hoverable">
         <a href="/Produtos" className="navbar-link">Produtos</a>
         <div className="navbar-dropdown is-right">
