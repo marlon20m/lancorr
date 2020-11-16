@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "react-bulma-components/lib/components/navbar";
 import axios from "axios";
+let URI = process.env.NODE_ENV === 'development' ? process.env.REACT_APP_DEV_URI : process.env.REACT_APP_PROD_URI;
 
 
 export default class ContatoHero extends Component {
@@ -37,7 +38,7 @@ export default class ContatoHero extends Component {
       email:this.state.email,
       message:this.state.message
     }
-      axios.post("http://localhost:3001/api/form",data)
+      axios.post(`${URI}/api/form`,data)
     .then(res =>{
       this.setState({ 
         sent:true,
