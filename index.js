@@ -21,7 +21,7 @@ app.get('/', (req, res, next) => {
     res.json({message: "welcome to my contact form"});
 })
 
-app.post("/api/form", (req, res) => {
+
     let smtpTransport = nodemailer.createTransport({
         service: "gmail",
         port:465,
@@ -37,7 +37,7 @@ app.post("/api/form", (req, res) => {
              accessToken: accessToken
         }
       })
-    });
+  
 
     const oauth2Client = new OAuth2(
         "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com", // ClientID
@@ -54,28 +54,29 @@ const accessToken = oauth2Client.getAccessToken()
 
 
 
+    app.post("/api/form", (req, res) => {
+        let mailOptions = {
+        from: data.email,
+        to: "marlonmora.ndr@gmail.com",
+        subject: `Message from ${data.name}`,
+        html:`
 
-let mailOptions = {
-    from: data.email,
-    to: "marlonmora.ndr@gmail.com",
-    subject: `Message from ${data.name}`,
-    html:`
-    
-    <h3>Mensagem de Lancorr.com</h3>
-        <ul>
-        <li>Name: ${data.name}</li>
-        <br></br>
-        <li>Email: ${data.email}</li>
-        <br></br>
-        <li>Message: ${data.message}</li>
-        <br></br>
-        </ul>
+        <h3>Mensagem de Lancorr.com</h3>
+            <ul>
+            <li>Name: ${data.name}</li>
+            <br></br>
+            <li>Email: ${data.email}</li>
+            <br></br>
+            <li>Message: ${data.message}</li>
+            <br></br>
+            </ul>
 
-    <h3>Mensagem</h3>
-        <h4>${data.message}</h4>
+        <h3>Mensagem</h3>
+            <h4>${data.message}</h4>
 
-    `
-}
+        `
+        }
+    });
 
 smtpTransport.sendMail(mailOptions, (error, response) => {
     error ? console.log(error) : console.log(response);
