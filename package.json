@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "form",
   "homepage": "https://lancorr.herokuapp.com/",
-  "proxy": "http://localhost:3000",
   "engines": {
     "node": "12.18.0",
     "npm": "6.14.4"
