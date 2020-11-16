@@ -50,7 +50,7 @@ const accessToken = oauth2Client.getAccessToken()
 
 
 
-    app.post("api/form", (req, res) => {
+    app.post("/api/form", (req, res) => {
         let mailOptions = {
         from: data.email,
         to: "marlonmora.ndr@gmail.com",
