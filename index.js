@@ -7,7 +7,6 @@ const cors = require("cors");
 
 const app = express();
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.options('*', cors());
@@ -33,6 +32,9 @@ app.post("/api/form", (req, res) => {
              clientId: "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com",
              clientSecret: "9foBtI-6ToaHhQs0bndjfx_k",
              refreshToken: "1//0faPpHx2-HDFfCgYIARAAGA8SNwF-L9IraO_BqEFNP6JcSTC8lTGgcFKDoDd5aPYispqgNkiWjtS-wIhI05pYOh_03UDe7Tvtrog",
+             tls: {
+                rejectUnauthorized: false
+              },
              accessToken: accessToken
         }
       })
