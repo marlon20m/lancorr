@@ -16,18 +16,20 @@ app.get('/', (req, res, next) => {
     res.json({message: "welcome to my contact form"});
 })
 
-
 app.post("/api/form", (req, res) => {
-
-    let data = req.body
     let smtpTransport = nodemailer.createTransport({
-        service: "Gmail",
+        service: "gmail",
         port:465,
-        auth:{
-            user: "marlonmora.ndr@gmail.com",
-            pass: "Smoothie101018_"
+        auth: {
+             type: "OAuth2",
+             user: "marlonmora.ndr@gmail.com", 
+             clientId: "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com",
+             clientSecret: "9foBtI-6ToaHhQs0bndjfx_k",
+             refreshToken: "1//0faPpHx2-HDFfCgYIARAAGA8SNwF-L9IraO_BqEFNP6JcSTC8lTGgcFKDoDd5aPYispqgNkiWjtS-wIhI05pYOh_03UDe7Tvtrog",
+             accessToken: accessToken
         }
-    })
+      })
+    });
 
     const oauth2Client = new OAuth2(
         "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com", // ClientID
@@ -40,17 +42,8 @@ app.post("/api/form", (req, res) => {
 });
 const accessToken = oauth2Client.getAccessToken()
 
-const smtpTransport = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-         type: "OAuth2",
-         user: "marlonmora.ndr@gmail.com", 
-         clientId: "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com",
-         clientSecret: "9foBtI-6ToaHhQs0bndjfx_k",
-         refreshToken: "1//0faPpHx2-HDFfCgYIARAAGA8SNwF-L9IraO_BqEFNP6JcSTC8lTGgcFKDoDd5aPYispqgNkiWjtS-wIhI05pYOh_03UDe7Tvtrog",
-         accessToken: accessToken
-    }
-});
+
+
 
 
 
@@ -76,17 +69,8 @@ let mailOptions = {
     `
 }
 
-smtpTransport.sendMail(mailOptions, (error,response)=>{
-
-        if(error){
-            res.send(error)
-        }
-        else{
-            res.send("Success")
-        }
-})
-
-smtpTransport.close();
-
-})
+smtpTransport.sendMail(mailOptions, (error, response) => {
+    error ? console.log(error) : console.log(response);
+    smtpTransport.close();
+});
 
