@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink as RouterNavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "react-bulma-components/lib/components/navbar";
 
 function Navigation() {
@@ -66,7 +66,7 @@ function Navigation() {
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-end">
       <a href="/" className="navbar-item" >Início</a>
-      <Nav.Link as={RouterNavLink} href="/QuemSomos" className="navbar-item">Quem Somos</Nav.Link>
+      <Link as={RouterNavLink} href="/QuemSomos" className="navbar-item">Quem Somos</Link>
       <div className="navbar-item has-dropdown is-hoverable">
         <a href="/Produtos" className="navbar-link">Produtos</a>
         <div className="navbar-dropdown is-right">
