@@ -7,6 +7,8 @@ const cors = require("cors");
 
 const app = express();
 
+app.set("port", PORT);
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
@@ -70,9 +72,6 @@ if (environment === "production") {
   app.use(express.static("client/build"));
 }
 
-app.get('/', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-})
 
 
 app.listen(PORT, () => {
