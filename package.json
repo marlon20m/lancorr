@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "serve -s build",
+    "start": "if-env NODE_ENV=production && npm run start:prod || echo 'This script is intended for heroku ONLY'",
     "server": "node index.js",
     "client": "cd client && npm run start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
