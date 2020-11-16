@@ -23,41 +23,41 @@ function Navigation() {
       <span aria-hidden="true" />
       <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-end">
-      <a href="/" className="navbar-item" >Início</a>
-      <a href="/QuemSomos" className="navbar-item">Quem Somos</a>
+      <Link to="/" className="navbar-item" >Início</Link>
+      <Link to="/QuemSomos" className="navbar-item">Quem Somos</Link>
       <div className="navbar-item has-dropdown is-hoverable">
-        <a href="/Produtos" className="navbar-link">Produtos</a>
+      <Link to="/Produtos" className="navbar-link">Produtos</Link>
         <div className="navbar-dropdown is-right">
           
-          <a href="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</a>
-          <a href="/AditivosBiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
-          <a href="/CompostosTermoplasticos"className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</a>
-          <a href="/Masterbatches" className="navbar-item">MASTERBATCHES</a>
-          <a href="/ResinasPetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</a>
-          <a href="/Produtos" className="navbar-item">VER TODOS</a>
+        <Link to="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</Link>
+          <Link to="/AditivosBiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</Link>
+          <Link to="/CompostosTermoplasticos"className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</Link>
+          <Link to="/Masterbatches" className="navbar-item">MASTERBATCHES</Link>
+          <Link to="/ResinasPetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</Link>
+          <Link to="/Produtos" className="navbar-item">VER TODOS</Link>
           </div>
         </div>
         <div className="navbar-item has-dropdown is-hoverable">
-        <a href="/Servicos" className="navbar-link" to="/Servicos">Serviços</a>
+        <Link to="/Servicos" className="navbar-link" to="/Servicos">Serviços</Link>
         <div className="navbar-dropdown is-right">
-          <a href="/Industrializacao" className="navbar-item">INDUSTRIALIZAÇAO</a>
-          <a href="/Desenvolvimentos" className="navbar-item">DESENVOLVIMENTOS</a>
+          <Link to="/Industrializacao" className="navbar-item">INDUSTRIALIZAÇAO</Link>
+          <Link to="/Desenvolvimentos" className="navbar-item">DESENVOLVIMENTOS</Link>
         </div>
         </div>
 
       <div className="navbar-item has-dropdown is-hoverable">
-        <a href="/Representacoes" className="navbar-link" >Representações</a>
+       <Link to="/Representacoes" className="navbar-link" >Representações</Link>
         <div className="navbar-dropdown is-right">
-          <a href="/Beplast/#section1" className="navbar-item">BEPLAST</a>
-          <a href="/EcoVentures/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</a>
-          <a href="/Prisma/#section3" className="navbar-item">PRISMA</a>
-          <a href="/TritecResinas/#section4" className="navbar-item">TRITEC RESINAS</a>
-          <a href="/Representacoes" className="navbar-item" >VER TODOS</a>
+          <Link to="/Beplast/#section1" className="navbar-item">BEPLAST</Link>
+          <Link to="/EcoVentures/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</Link>
+          <Link to="/Prisma/#section3" className="navbar-item">PRISMA</Link>
+          <Link to="/TritecResinas/#section4" className="navbar-item">TRITEC RESINAS</Link>
+          <Link to="/Representacoes" className="navbar-item" >VER TODOS</Link>
 
           <hr className="navbar-divider" />
           </div>
         </div>
-        <a href="/Contato" className="navbar-item" >Contato</a>
+        <Link to="/Contato" className="navbar-item" >Contato</Link>
       </div>
     </div>
 
@@ -65,41 +65,41 @@ function Navigation() {
   </div>
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-end">
-      <a href="/" className="navbar-item" >Início</a>
+      <Link to="/" className="navbar-item" >Início</Link>
       <Link to="/QuemSomos" className="navbar-item">Quem Somos</Link>
       <div className="navbar-item has-dropdown is-hoverable">
-        <a href="/Produtos" className="navbar-link">Produtos</a>
+      <Link to="/Produtos" className="navbar-link">Produtos</Link>
         <div className="navbar-dropdown is-right">
           
-          <a href="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</a>
-          <a href="/AditivosBiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</a>
-          <a href="/CompostosTermoplasticos"className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</a>
-          <a href="/Masterbatches" className="navbar-item">MASTERBATCHES</a>
-          <a href="/ResinasPetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</a>
-          <a href="/Produtos" className="navbar-item">VER TODOS</a>
+          <Link to="/AditivosFuncionais" className="navbar-item">ADITIVOS FUNCIONAIS</Link>
+          <Link to="/AditivosBiodegradaveis" className="navbar-item">ADITIVOS BIODEGRADÁVEIS</Link>
+          <Link to="/CompostosTermoplasticos"className="navbar-item">COMPOSTOS TERMOPLÁSTICOS</Link>
+          <Link to="/Masterbatches" className="navbar-item">MASTERBATCHES</Link>
+          <Link to="/ResinasPetroquimicas" className="navbar-item">RESINAS PETROQUÍMICAS</Link>
+          <Link to="/Produtos" className="navbar-item">VER TODOS</Link>
           </div>
         </div>
         <div className="navbar-item has-dropdown is-hoverable">
-        <a href="/Servicos" className="navbar-link" to="/Servicos">Serviços</a>
+        <Link to="/Servicos" className="navbar-link" to="/Servicos">Serviços</Link>
         <div className="navbar-dropdown is-right">
-          <a href="/Industrializacao" className="navbar-item">INDUSTRIALIZAÇAO</a>
-          <a href="/Desenvolvimentos" className="navbar-item">DESENVOLVIMENTOS</a>
+        <Link to="/Industrializacao" className="navbar-item">INDUSTRIALIZAÇAO</Link>
+        <Link to="/Desenvolvimentos" className="navbar-item">DESENVOLVIMENTOS</Link>
         </div>
         </div>
 
       <div className="navbar-item has-dropdown is-hoverable">
-        <a href="/Representacoes" className="navbar-link" >Representações</a>
+      <Link to="/Representacoes" className="navbar-link" >Representações</Link>
         <div className="navbar-dropdown is-right">
-          <a href="/Beplast/#section1" className="navbar-item">BEPLAST</a>
-          <a href="/EcoVentures/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</a>
-          <a href="/Prisma/#section3" className="navbar-item">PRISMA</a>
-          <a href="/TritecResinas/#section4" className="navbar-item">TRITEC RESINAS</a>
-          <a href="/Representacoes" className="navbar-item" >VER TODOS</a>
+        <Link to="/Beplast/#section1" className="navbar-item">BEPLAST</Link>
+        <Link to="/EcoVentures/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</Link>
+        <Link to="/Prisma/#section3" className="navbar-item">PRISMA</Link>
+        <Link to="/TritecResinas/#section4" className="navbar-item">TRITEC RESINAS</Link>
+        <Link to="/Representacoes" className="navbar-item" >VER TODOS</Link>
 
           <hr className="navbar-divider" />
           </div>
         </div>
-        <a href="/Contato" className="navbar-item" >Contato</a>
+        <Link to="/Contato" className="navbar-item" >Contato</Link>
       </div>
     </div>
 </nav>
