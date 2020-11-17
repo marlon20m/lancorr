@@ -19,6 +19,10 @@ app.use(function(req, res, next) {
     next();
 });
 
+app.options("/api/form", (req, res) => {
+    res.sendStatus(204);
+});
+
 app.get('/', (req, res, next) => {
     res.json({message: "welcome to my contact form"});
 })
