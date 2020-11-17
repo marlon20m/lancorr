@@ -20,8 +20,8 @@ function MasterbatchesHero() {
         Esse aliqua ad eiusmod non Lorem do ut deserunt.
       </h1>
       <h2 className="subtitle has-text-white">
-        Do tempor id consectetur magna proident elit sit labore consectetur do.
-        Irure laborum ea magna ipsum id quis cillum irure. Culpa reprehenderit aute occaecat reprehenderit aute non in incididunt nulla. Nostrud velit adipisicing culpa incididunt ipsum. Laborum qui aute sit elit laborum sint adipisicing sint ut veniam elit ullamco ipsum. In aute commodo sunt aute ea velit nisi nulla et nulla velit et consequat ad.
+      Através da aplicação de concentrados de cor, formulados nos mais diversos tipos de polímeros, obtém-se características diferenciadas
+    como: pigmentação/cores, efeitos, e acabamentos especiais.
       </h2>
     </div>
   </div>

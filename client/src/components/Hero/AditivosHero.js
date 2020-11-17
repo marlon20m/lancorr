@@ -18,11 +18,15 @@ function AditivosHero() {
   <div className="hero-body">
     <div className="container">
       <h1 className="title has-text-white is">
-        Esse aliqua ad eiusmod non Lorem do ut deserunt.
+        ADITIVOS de PERFORMANCE
       </h1>
       <h2 className="subtitle has-text-white">
-        Do tempor id consectetur magna proident elit sit labore consectetur do.
-        Irure laborum ea magna ipsum id quis cillum irure. Culpa reprehenderit aute occaecat reprehenderit aute non in incididunt nulla. Nostrud velit adipisicing culpa incididunt ipsum. Laborum qui aute sit elit laborum sint adipisicing sint ut veniam elit ullamco ipsum. In aute commodo sunt aute ea velit nisi nulla et nulla velit et consequat ad.
+      Estes concentrados de aditivos são formulados para proporcionar melhor desempenho aos artefatos plásticos, atendendo a
+    diversas exigências técnicas: proteção a intempéries e radiação UV; evitar a propagação de chama; resistência ao impacto;
+    evitar o bloqueio de embalagens plásticas; reduzir e/ou eliminar a eletricidade estática; proteção contra degradação térmica;
+    proteção microbiana; inibidor/modificador de odores; etc.
+    A linha de produtos: estabilizantes UV; antiestático; antiblock; modificador de impacto; antichamas; deslizantes; antimicrobiano;
+    aromatizantes; antioxidantes; etc.
       </h2>
     </div>
   </div>

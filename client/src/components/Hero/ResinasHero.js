@@ -21,8 +21,9 @@ function ResinasHero() {
         Esse aliqua ad eiusmod non Lorem do ut deserunt.
       </h1>
       <h2 className="subtitle has-text-white">
-        Do tempor id consectetur magna proident elit sit labore consectetur do.
-        Irure laborum ea magna ipsum id quis cillum irure. Culpa reprehenderit aute occaecat reprehenderit aute non in incididunt nulla. Nostrud velit adipisicing culpa incididunt ipsum. Laborum qui aute sit elit laborum sint adipisicing sint ut veniam elit ullamco ipsum. In aute commodo sunt aute ea velit nisi nulla et nulla velit et consequat ad.
+      Estes produtos são os polímeros plásticos utilizados em todos os tipos de processamento e transformação em diversos tipos de manufaturados: embalagens; utilidades domésticas;
+eletroeletrônicos; peças técnicas; tampas; calçados; etc.
+Algumas resinas comercializdas: ABS; PEAD; PEBD; PEBDL; PP; PS; etc.
       </h2>
     </div>
   </div>

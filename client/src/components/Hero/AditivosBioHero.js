@@ -21,8 +21,10 @@ function AditivosBioHero() {
         Esse aliqua ad eiusmod non Lorem do ut deserunt.
       </h1>
       <h2 className="subtitle has-text-white">
-        Do tempor id consectetur magna proident elit sit labore consectetur do.
-        Irure laborum ea magna ipsum id quis cillum irure. Culpa reprehenderit aute occaecat reprehenderit aute non in incididunt nulla. Nostrud velit adipisicing culpa incididunt ipsum. Laborum qui aute sit elit laborum sint adipisicing sint ut veniam elit ullamco ipsum. In aute commodo sunt aute ea velit nisi nulla et nulla velit et consequat ad.
+      Os plásticos precisam de milhares de anos para se degradarem quando descartados.
+    As resinas Go Green P-Life oferecem uma solução sustentável e ecologicamente correta, porque são produtos de origem natural
+    que transformam qualquer plástico em plástico BIODEGRADÁVEL, sendo o único produto com certificação internacional
+    a atender integralmente a normativa  ASTM 6954-4 – SPCR 141.
       </h2>
     </div>
   </div>
