@@ -1,11 +1,10 @@
 const express = require("express");
 const environment = process.env.NODE_ENV || "development";
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 const path = require("path");
 
 const app = express();
 
-app.set("port", PORT);
 
 console.log(process.env.NODE_ENV);
 if (environment === "production") {
