@@ -9,9 +9,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
-
-
-app.options('*', cors())
+app.use(cors());
 
 app.get('/', (req, res, next) => {
     res.json({message: "welcome to my contact form"});
@@ -29,6 +27,7 @@ oauth2Client.setCredentials({
 });
 const accessToken = oauth2Client.getAccessToken()
 
+    app.post("/api/form", (req, res) => {
     const transport = nodemailer.createTransport({
         host: "smtp.gmail.com",
         secure: true,
@@ -42,11 +41,8 @@ const accessToken = oauth2Client.getAccessToken()
              accessToken: accessToken
         }
       })
-
-
-
-    app.post("/api/form", (req, res) => {
-        let mailOptions = {
+ 
+        const mailOptions = {
         from: data.email,
         to: "marlonmora.ndr@gmail.com",
         subject: `Message from ${data.name}`,
@@ -67,10 +63,12 @@ const accessToken = oauth2Client.getAccessToken()
 
         `
         }
-    });
+   
 
 transport.sendMail(mailOptions, (error, response) => {
     error ? console.log(error) : console.log(response);
     transport.close();
-});
 
+        })
+
+    });
