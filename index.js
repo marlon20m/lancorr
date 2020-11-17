@@ -15,14 +15,14 @@ app.get('/', (req, res, next) => {
 })
 
 
-app.post("api/form", (req, res) => {
+app.post("/api/form", (req, res) => {
     let data = req.body
     let smtpTransport = nodemailer.createTransport({
         service: "Gmail",
         port:465,
         auth:{
-            user: "marlonmora.ndr@gmail.com",
-            pass: "Smoothie101018_"
+            user: process.env.USER,
+            pass: process.env.PASS
         }
     })
 
