@@ -17,9 +17,21 @@ app.get('/', (req, res, next) => {
     res.json({message: "welcome to my contact form"});
 })
 
+const oauth2Client = new OAuth2(
+    "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com", // ClientID
+    "9foBtI-6ToaHhQs0bndjfx_k", // Client Secret
+    "https://developers.google.com/oauthplayground" // Redirect URL
+);
 
-    let smtpTransport = nodemailer.createTransport({
-        service: "gmail",
+
+oauth2Client.setCredentials({
+    refresh_token: "1//0faPpHx2-HDFfCgYIARAAGA8SNwF-L9IraO_BqEFNP6JcSTC8lTGgcFKDoDd5aPYispqgNkiWjtS-wIhI05pYOh_03UDe7Tvtrog"
+});
+const accessToken = oauth2Client.getAccessToken()
+
+    const transport = nodemailer.createTransport({
+        host: "smtp.gmail.com",
+        secure: true,
         port:465,
         auth: {
              type: "OAuth2",
@@ -27,26 +39,9 @@ app.get('/', (req, res, next) => {
              clientId: "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com",
              clientSecret: "9foBtI-6ToaHhQs0bndjfx_k",
              refreshToken: "1//0faPpHx2-HDFfCgYIARAAGA8SNwF-L9IraO_BqEFNP6JcSTC8lTGgcFKDoDd5aPYispqgNkiWjtS-wIhI05pYOh_03UDe7Tvtrog",
-             tls: {
-                rejectUnauthorized: false
-              },
              accessToken: accessToken
         }
       })
-  
-
-    const oauth2Client = new OAuth2(
-        "19442885581-7kta7t83fs5dirnleflfkufr7i2jmk7a.apps.googleusercontent.com", // ClientID
-        "9foBtI-6ToaHhQs0bndjfx_k", // Client Secret
-        "https://developers.google.com/oauthplayground" // Redirect URL
-   );
-
-   oauth2Client.setCredentials({
-    refresh_token: "1//0faPpHx2-HDFfCgYIARAAGA8SNwF-L9IraO_BqEFNP6JcSTC8lTGgcFKDoDd5aPYispqgNkiWjtS-wIhI05pYOh_03UDe7Tvtrog"
-});
-const accessToken = oauth2Client.getAccessToken()
-
-
 
 
 
@@ -74,8 +69,8 @@ const accessToken = oauth2Client.getAccessToken()
         }
     });
 
-smtpTransport.sendMail(mailOptions, (error, response) => {
+transport.sendMail(mailOptions, (error, response) => {
     error ? console.log(error) : console.log(response);
-    smtpTransport.close();
+    transport.close();
 });
 
