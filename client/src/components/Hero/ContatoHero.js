@@ -38,7 +38,7 @@ export default class ContatoHero extends Component {
       email:this.state.email,
       message:this.state.message
     }
-      axios.post("https://cors-anywhere.herokuapp.com/api/form",data)
+      axios.post("http://localhost:3001/api/form",data)
     .then(res =>{
       this.setState({ 
         sent:true,
