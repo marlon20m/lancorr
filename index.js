@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
 
 
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
     res.json({message: "welcome to my contact form"});
 })
 
@@ -50,7 +50,7 @@ let mailOptions = {
     `
 }
 
-smtpTransport.sendMail(mailOptions, (error,response)=>{
+smtpTransport.sendMail(mailOptions, (error,res)=>{
 
         if(error){
             res.send(error)
