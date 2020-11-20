@@ -1,7 +1,9 @@
 const express = require("express");
+const environment = process.env.NODE_ENV || "development";
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const PORT = process.env.PORT || 3001;
+const path = require("path");
 const cors = require("cors");
 
 const app = express();
@@ -83,3 +85,11 @@ app.listen(80, function () {
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
 })
+
+console.log(process.env.NODE_ENV);
+if (environment === "production") {
+  app.use(express.static("client/build"));
+}
+
+app.use(express.static(path.join(__dirname, '../build')));
+
