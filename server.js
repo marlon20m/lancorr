@@ -86,7 +86,8 @@ app.listen(80, function () {
     console.log('CORS-enabled web server listening on port 80')
   })
 
-app.listen(port, () => console.log(`Listening on ${port}`));
+server.listen(port, () => { console.log(`Listening on ${port}`)
+});
 
 console.log(process.env.NODE_ENV);
 if (environment === "production") {
