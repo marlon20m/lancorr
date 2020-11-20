@@ -37,7 +37,7 @@ export default class ContatoHero extends Component {
       email:this.state.email,
       message:this.state.message
     }
-      axios.post("/api/form",data)
+      axios.post("http://localhost:8080/api/form",data)
     .then(res =>{
       this.setState({ 
         sent:true,
