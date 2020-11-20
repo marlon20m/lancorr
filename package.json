@@ -2,7 +2,7 @@
   "name": "lancorr",
   "version": "0.1.0",
   "description": "form",
-  "homepage": "https://lancorr.herokuapp.com/",
+  "proxy": "https://localhost:3000",
   "engines": {
     "node": "12.18.0",
     "npm": "6.14.4"
@@ -10,9 +10,9 @@
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || echo 'This script is intended for heroku ONLY'",
-    "start:prod": "node server.js",
+    "start:prod": "node index.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "server": "node server.js",
+    "server": "node index.js",
     "client": "cd client && npm run start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "cd client/ && npm install && npm run build",

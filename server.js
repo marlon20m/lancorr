@@ -1,6 +1,5 @@
 const express = require("express");
 const environment = process.env.NODE_ENV || "development";
-const PORT = process.env.PORT || 8080;
 const path = require("path");
 
 const app = express();
@@ -15,6 +14,3 @@ app.use(express.static(path.join(__dirname, '../build')));
 
 
 
-app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`)
-})

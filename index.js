@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
+const PORT = process.env.PORT || 3001;
 const cors = require("cors");
 
 const app = express();
@@ -9,29 +10,29 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
 
-
-app.get('/', (req, res) => {
+app.get('/', cors(), (req, res, next) => {
     res.json({message: "welcome to my contact form"});
 })
 
-var corsOptions = {
-    origin: "http://localhost:3000",
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-  }
+app.options("/api/form", cors())
 
-  app.options("/api/form", cors(corsOptions)) 
-
-  app.post("/api/form", cors(corsOptions), function (req, res, next) {
+app.post("/api/form", function (req, res, next) {
     res.json({msg: 'This is CORS-enabled for all origins!'})
+
 
     let data = req.body
     let smtpTransport = nodemailer.createTransport({
         service: "Gmail",
         port:465,
         auth:{
-            user: process.env.USER,
-            pass: process.env.PASS
+            user: "marlonmora.ndr@gmail.com",
+            pass: "Smoothie101018_"
         }
     })
 
@@ -59,9 +60,7 @@ let mailOptions = {
     }
 
 
-app.listen(80, function () {
-    console.log('CORS-enabled web server listening on port 80')
-  })
+
 
 smtpTransport.sendMail(mailOptions, (error,res)=>{
 
@@ -75,6 +74,12 @@ smtpTransport.sendMail(mailOptions, (error,res)=>{
 
 smtpTransport.close();
 
-
 })
 
+app.listen(80, function () {
+    console.log('CORS-enabled web server listening on port 80')
+  })
+
+app.listen(PORT, () => {
+    console.log(`Server listening on port ${PORT}`)
+})
