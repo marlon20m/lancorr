@@ -2,7 +2,6 @@ const express = require("express");
 const environment = process.env.NODE_ENV || "development";
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
-const PORT = process.env.PORT || 3001;
 const path = require("path");
 require("dotenv").config();
 const cors = require("cors");
@@ -86,9 +85,9 @@ app.listen(80, function () {
     console.log('CORS-enabled web server listening on port 80')
   })
 
-app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`)
-})
+  app.listen(process.env.PORT || 3001, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
 
 console.log(process.env.NODE_ENV);
 if (environment === "production") {
