@@ -81,13 +81,6 @@ smtpTransport.close();
 
 })
 
-app.listen(80, function () {
-    console.log('CORS-enabled web server listening on port 80')
-  })
-
-app.listen(PORT, () => {
-    console.log(`App running on port ${PORT}!`);
-  });
 
 console.log(process.env.NODE_ENV);
 if (environment === "production") {
@@ -96,3 +89,12 @@ if (environment === "production") {
 
 app.use(express.static(path.join(__dirname, '../build')));
 
+app.set("port", PORT);
+
+app.listen(80, function () {
+    console.log('CORS-enabled web server listening on port 80')
+  })
+
+app.listen(PORT, () => {
+    console.log(`App running on port ${PORT}!`);
+  });
