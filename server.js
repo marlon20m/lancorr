@@ -21,12 +21,13 @@ app.use(function(req, res, next) {
     next();
   });
 
-app.get('/', cors(), (req, res, next) => {
+
+app.options("/send", cors()); 
+app.get("/send", cors(), (req, res, next) => {
     res.json({message: "welcome to my contact form"});
 })
 
 app.options("/api/form", cors())
-
 app.post("/api/form", function (req, res, next) {
     res.json({msg: 'This is CORS-enabled for all origins!'})
 
