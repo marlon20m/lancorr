@@ -91,10 +91,8 @@ app.use(express.static(path.join(__dirname, '../build')));
 
 app.set("port", PORT);
 
-app.listen(80, function () {
-    console.log('CORS-enabled web server listening on port 80')
-  })
 
-app.listen(PORT, () => {
+app.listen(PORT, err => {
+    
     console.log(`App running on port ${PORT}!`);
   });
