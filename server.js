@@ -67,19 +67,16 @@ let mailOptions = {
 
 
 
-smtpTransport.sendMail(mailOptions, (error, response)=>{
-
-        if(error){
-            res.send(error)
-        }
-        else{
-            res.send("Success")
-        }
-})
-
-smtpTransport.close();
-
-})
+    smtpTransport.sendMail(mailOptions,
+      (error, response) => {
+      if (error) {
+      res.status(400).send(error)
+      } else {
+      res.send('Success')
+      }
+      smtpTransport.close();
+      });
+      })
 
 
 console.log(process.env.NODE_ENV);
