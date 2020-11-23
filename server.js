@@ -28,9 +28,12 @@ app.get("/send", cors(), (req, res, next) => {
 
 app.options("/api/form", cors())
 app.post("/api/form", function (req, res, next) {
+
+
     let data = req.body
     let smtpTransport = nodemailer.createTransport({
-      host: "Gmail",
+      host: "smtp.gmail.com",
+      secure: true,
       port: 465,
         auth:{
             user: process.env.USEREMAIL,
@@ -67,14 +70,15 @@ let mailOptions = {
 smtpTransport.sendMail(mailOptions, (error, response)=>{
 
         if(error){
-          res.status(400).send(error)        
-        } else{
+            res.send(error)
+        }
+        else{
             res.send("Success")
         }
+})
 
 smtpTransport.close();
 
-});
 })
 
 
@@ -87,12 +91,8 @@ app.use(express.static(path.join(__dirname, '../build')));
 
 app.set("port", PORT);
 
+
 app.listen(PORT, err => {
     
     console.log(`App running on port ${PORT}!`);
   });
-
-
-
- 
-    
