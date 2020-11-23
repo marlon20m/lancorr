@@ -67,7 +67,7 @@ let mailOptions = {
 
 
 
-smtpTransport.sendMail(mailOptions, (error,res)=>{
+smtpTransport.sendMail(mailOptions, (error, response)=>{
 
         if(error){
             res.send(error)
