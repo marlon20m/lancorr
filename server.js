@@ -28,7 +28,6 @@ app.get("/send", cors(), (req, res, next) => {
 
 app.options("/api/form", cors())
 app.post("/api/form", function (req, res, next) {
-  res.json({msg: 'This is CORS-enabled for all origins!'})
     let data = req.body
     let smtpTransport = nodemailer.createTransport({
       host: "Gmail",
