@@ -33,8 +33,7 @@ app.post("/api/form", function (req, res, next) {
 
     let data = req.body
     let smtpTransport = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      secure: true,
+      host: "Gmail",
       port: 465,
         auth:{
             user: process.env.USEREMAIL,
@@ -91,7 +90,6 @@ if (environment === "production") {
 app.use(express.static(path.join(__dirname, '../build')));
 
 app.set("port", PORT);
-
 
 app.listen(PORT, err => {
     
