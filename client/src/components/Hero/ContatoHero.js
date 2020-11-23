@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import "react-bulma-components/lib/components/navbar";
 import axios from "axios";
+import "react-bulma-components/lib/components/navbar";
+
 
 
 export default class ContatoHero extends Component {
@@ -37,7 +38,7 @@ export default class ContatoHero extends Component {
       email:this.state.email,
       message:this.state.message
     }
-      axios.post("https://still-castle-20163.herokuapp.com/https://lancorr.herokuapp.com/api/form", data)
+      axios.post("https://lancorr.herokuapp.com/api/form", data)
     .then(res =>{
       this.setState({ 
         sent:true,
