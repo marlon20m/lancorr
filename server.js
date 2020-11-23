@@ -28,9 +28,6 @@ app.get("/send", cors(), (req, res, next) => {
 
 app.options("/api/form", cors())
 app.post("/api/form", function (req, res, next) {
-    res.json({msg: 'This is CORS-enabled for all origins!'})
-
-
     let data = req.body
     let smtpTransport = nodemailer.createTransport({
       host: "Gmail",
@@ -67,16 +64,18 @@ let mailOptions = {
 
 
 
-    smtpTransport.sendMail(mailOptions,
-      (error, response) => {
-      if (error) {
-      res.status(400).send(error)
-      } else {
-      res.send('Success')
-      }
-      smtpTransport.close();
-      });
-      })
+smtpTransport.sendMail(mailOptions, (error, response)=>{
+
+        if(error){
+          res.status(400).send(error)        
+        } else{
+            res.send("Success")
+        }
+
+smtpTransport.close();
+
+});
+})
 
 
 console.log(process.env.NODE_ENV);
@@ -92,3 +91,8 @@ app.listen(PORT, err => {
     
     console.log(`App running on port ${PORT}!`);
   });
+
+
+
+ 
+    
