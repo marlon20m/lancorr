@@ -33,11 +33,8 @@ app.post("/api/form", function (req, res, next) {
 
     let data = req.body
     var smtpTransport = nodemailer.createTransport({
-        host: "smtp.outlook.com",
+        host: "smtp.office365.com",
         port: 587,
-        tls: {
-            ciphers: 'SSLv3'
-        },
         auth: {
             user: process.env.USEREMAIL,
             pass: process.env.PASS
