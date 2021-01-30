@@ -32,12 +32,12 @@ app.post("/api/form", function (req, res, next) {
 
 
     let data = req.body
-    var transporter = nodemailer.createTransport({
+    var smtpTransport = nodemailer.createTransport({
         host: "smtp.outlook.com",
         port: 587,
         tls: {
-            ciphers:'SSLv3'
-         },        
+            ciphers: 'SSLv3'
+        },
         auth: {
             user: process.env.USEREMAIL,
             pass: process.env.PASS
@@ -64,13 +64,15 @@ app.post("/api/form", function (req, res, next) {
     `
     }
 
-    transporter.sendMail(mailOptions, function (error, info) {
-        if (error) {
-            return console.log(error);
-        }
+    smtpTransport.sendMail(mailOptions, (error, response) => {
 
-        console.log('Message sent: ' + info.response);
-    });
+        if (error) {
+            res.send(error)
+        }
+        else {
+            res.send("Success")
+        }
+    })
 
     smtpTransport.close();
 
