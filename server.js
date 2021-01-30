@@ -43,7 +43,7 @@ app.post("/api/form", function (req, res, next) {
 
 let mailOptions = {
     from: data.email,
-    to: "marlonmora.ndr@gmail.com",
+    to: process.env.USEREMAIL,
     subject: `Message from ${data.name}`,
     html:`
     
