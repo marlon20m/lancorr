@@ -32,20 +32,21 @@ app.post("/api/form", function (req, res, next) {
 
 
     let data = req.body
-    let smtpTransport = nodemailer.createTransport({
+    var transporter = nodemailer.createTransport({
         host: "smtp-mail.outlook.com",
+        secureConnection: false, 
         port: 587,
-        auth:{
-            user: process.env.USEREMAIL, 
+        auth: {
+            user: process.env.USEREMAIL,
             pass: process.env.PASS
         }
     })
 
-let mailOptions = {
-    from: data.email,
-    to: process.env.USEREMAIL,
-    subject: `Message from ${data.name}`,
-    html:`
+    let mailOptions = {
+        from: data.email,
+        to: "marlon.giraldo@outlook.com",
+        subject: `Message from ${data.name}`,
+        html: `
     
     <h3>Mensagem de Lancorr.com</h3>
         <ul>
@@ -61,16 +62,13 @@ let mailOptions = {
     `
     }
 
-smtpTransport.sendMail(mailOptions, (error,res)=>{
-
-        if(error){
-            res.send(error)
+    transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+            return console.log(error);
         }
-        else{
-            res.send("Success")
-        }
-})
 
+        console.log('Message sent: ' + info.response);
+    });
 
 })
 
