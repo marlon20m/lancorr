@@ -11,44 +11,42 @@ const app = express();
 console.log(process.env);
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
 
-app.use(function (req, res, next) {
+app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
-});
+  });
 
 
-app.options("/send", cors());
+app.options("/send", cors()); 
 app.get("/send", cors(), (req, res, next) => {
-    res.json({ message: "welcome to my contact form" });
+    res.json({message: "welcome to my contact form"});
 })
 
 app.options("/api/form", cors())
-
 app.post("/api/form", function (req, res, next) {
 
 
     let data = req.body
-    var transporter = nodemailer.createTransport({
-        host: "smtp.outlook.com",
-        port: 587,
-        tls: {
-            ciphers:'SSLv3'
-         },        
-        auth: {
+    let smtpTransport = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      secure: true,
+      port: 465,
+        auth:{
             user: process.env.USEREMAIL,
             pass: process.env.PASS
         }
     })
 
-    let mailOptions = {
-        from: data.email,
-        to: "marlon.giraldo@outlook.com",
-        subject: `Message from ${data.name}`,
-        html: `
+
+let mailOptions = {
+    from: data.email,
+    to: "marlonmora.ndr@gmail.com",
+    subject: `Message from ${data.name}`,
+    html:`
     
     <h3>Mensagem de Lancorr.com</h3>
         <ul>
@@ -64,29 +62,35 @@ app.post("/api/form", function (req, res, next) {
     `
     }
 
-    transporter.sendMail(mailOptions, function (error, info) {
-        if (error) {
-            return console.log(error);
+
+
+
+smtpTransport.sendMail(mailOptions, (error, response)=>{
+
+        if(error){
+            res.send(error)
         }
+        else{
+            res.send("Success")
+        }
+})
 
-        console.log('Message sent: ' + info.response);
-    });
-
-    smtpTransport.close();
+smtpTransport.close();
 
 })
 
 
-
+console.log(process.env.NODE_ENV);
 if (environment === "production") {
-    app.use(express.static("client/build"));
+  app.use(express.static("client/build"));
 }
 
 app.use(express.static(path.join(__dirname, '../build')));
 
 app.set("port", PORT);
 
-app.listen(PORT, err => {
 
+app.listen(PORT, err => {
+    
     console.log(`App running on port ${PORT}!`);
-});
+  });
