@@ -43,7 +43,7 @@ app.post("/api/form", function (req, res, next) {
     }) 
 
     let mailOptions = {
-        from: data.email,
+        from:"marlon.giraldo@outlook.com",
         to: "marlon.giraldo@outlook.com",
         subject: `Message from ${data.name}`,
         html: `
