@@ -38,7 +38,7 @@ export default class ContatoHero extends Component {
       email:this.state.email,
       message:this.state.message
     }
-      axios.post("/Contato", data)
+      axios.post("https://lancorr.herokuapp.com/Contato", data)
     .then(res =>{
       this.setState({ 
         sent:true,
