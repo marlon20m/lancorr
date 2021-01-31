@@ -37,6 +37,9 @@ app.post("/api/form", function (req, res, next) {
         auth: {
             user: "marlon.giraldo@outlook.com",
             pass: "Smoothie101018_"
+        },
+        tls: {
+            rejectUnauthorized: false
         }
     })
 
