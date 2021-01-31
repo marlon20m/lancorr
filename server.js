@@ -39,8 +39,7 @@ app.post("/api/form", function (req, res, next) {
             user: process.env.USEREMAIL,
             pass: process.env.PASS
         },
-        secureConnection: false,
-        tls: { ciphers: 'SSLv3' }
+        secure: false,
     }) 
 
     let mailOptions = {
