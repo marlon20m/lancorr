@@ -43,6 +43,7 @@ export default class ContatoHero extends Component {
       this.setState({ 
         sent:true,
       },this.resetForm)
+      console.log("message sent")
     })
     .catch(()=> {
     console.log("message not sent")
