@@ -35,8 +35,8 @@ app.post("/Contato", function (req, res, next) {
     var smtpTransport = nodemailer.createTransport({
         service: "Outlook365",
         auth: {
-            user: "marlon.giraldo@outlook.com",
-            pass: "Smoothie101018_"
+            user: process.env.USEREMAIL,
+            pass: process.env.PASS
         },
         tls: {
             rejectUnauthorized: false
@@ -44,7 +44,7 @@ app.post("/Contato", function (req, res, next) {
     })
 
     let mailOptions = {
-        // from: data.email,
+        from: data.email,
         to: "marlon.giraldo@outlook.com",
         subject: `Message from ${data.name}`,
         html: `
