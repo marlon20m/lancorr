@@ -35,8 +35,8 @@ app.post("/api/form", function (req, res, next) {
     var smtpTransport = nodemailer.createTransport({
         service: "Outlook365",
         auth: {
-            user: process.env.USEREMAIL,
-            pass: process.env.PASS
+            user: "marlon.giraldo@outlook.com",
+            pass: "Smoothie101018_"
         }
     })
 
