@@ -83,7 +83,7 @@ if (environment === "production") {
     app.use(express.static("client/build"));
 }
 
-app.use(express.static(path.join(__dirname, '../build', 'index.html')));
+app.use(express.static(path.join(__dirname, "./client/build/index.html")));
 
 app.set("port", PORT);
 
