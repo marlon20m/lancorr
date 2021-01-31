@@ -34,16 +34,20 @@ app.post("/api/form", function (req, res, next) {
     let data = req.body
     var smtpTransport = nodemailer.createTransport({
         host: "smtp.office365.com",
+        secure: false,
+        requireTLS: true,
+        tls: {
+            rejectUnauthorized: false
+        },
         port: 587,
         auth: {
             user: process.env.USEREMAIL,
             pass: process.env.PASS
-        },
-        secure: false,
-    }) 
+        }
+    })
 
     let mailOptions = {
-        from:"marlon.giraldo@outlook.com",
+        from: "marlon.giraldo@outlook.com",
         to: "marlon.giraldo@outlook.com",
         subject: `Message from ${data.name}`,
         html: `
