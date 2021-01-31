@@ -26,9 +26,9 @@ app.get("/send", cors(), (req, res, next) => {
     res.json({ message: "welcome to my contact form" });
 })
 
-app.options("/api/form", cors())
+app.options("/Contato", cors())
 
-app.post("/api/form", function (req, res, next) {
+app.post("/Contato", function (req, res, next) {
 
 
     let data = req.body
