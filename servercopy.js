@@ -26,25 +26,22 @@ app.get("/send", cors(), (req, res, next) => {
     res.json({ message: "welcome to my contact form" });
 })
 
-app.options("/Contato", cors())
+app.options("/api/form", cors())
 
-app.post("/Contato", function (req, res, next) {
+app.post("/api/form", function (req, res, next) {
 
 
     let data = req.body
     var smtpTransport = nodemailer.createTransport({
         service: "Outlook365",
         auth: {
-            user: process.env.USEREMAIL,
-            pass: process.env.PASS
-        },
-        tls: {
-            rejectUnauthorized: false
+            user: "marlon.giraldo@outlook.com",
+            pass: "Smoothie101018_"
         }
     })
 
     let mailOptions = {
-        from: data.email,
+        // from: data.email,
         to: "marlon.giraldo@outlook.com",
         subject: `Message from ${data.name}`,
         html: `
