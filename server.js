@@ -37,14 +37,11 @@ app.post("/Contato", function (req, res, next) {
         auth: {
             user: process.env.USEREMAIL,
             pass: process.env.PASS
-        },
-        tls: {
-            rejectUnauthorized: false
         }
     })
 
     let mailOptions = {
-        from: "marlon.giraldo@outlook.com",
+        // from: "marlon.giraldo@outlook.com",
         to: "marlon.giraldo@outlook.com",
         subject: `Message from ${data.name}`,
         html: `
