@@ -17,7 +17,7 @@ function MasterbatchesHero() {
   <div className="hero-body">
     <div className="container">
       <h1 className="title has-text-white is">
-        Esse aliqua ad eiusmod non Lorem do ut deserunt.
+      Masterbatches
       </h1>
       <h2 className="subtitle has-text-white">
       Através da aplicação de concentrados de cor, formulados nos mais diversos tipos de polímeros, obtém-se características diferenciadas

@@ -18,8 +18,7 @@ function ResinasHero() {
   <div className="hero-body">
     <div className="container">
       <h1 className="title has-text-white is">
-        Esse aliqua ad eiusmod non Lorem do ut deserunt.
-      </h1>
+      Resinas Petroquímicas      </h1>
       <h2 className="subtitle has-text-white">
       Estes produtos são os polímeros plásticos utilizados em todos os tipos de processamento e transformação em diversos tipos de manufaturados: embalagens; utilidades domésticas;
 eletroeletrônicos; peças técnicas; tampas; calçados; etc.

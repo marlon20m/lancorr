@@ -18,8 +18,7 @@ function CompostosHero() {
   <div className="hero-body">
     <div className="container">
       <h1 className="title has-text-white is">
-        Esse aliqua ad eiusmod non Lorem do ut deserunt.
-      </h1>
+      Compostos Termoplásticos      </h1>
       <h2 className="subtitle has-text-white">
       Os compostos termoplásticos são formulados a partir de blendas de polímeros, aditivos, reforços, e outros insumos, que incorporados à resina base
     modificam a sua estrutura original proporcionando melhor desempenho técnico.

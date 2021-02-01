@@ -18,8 +18,7 @@ function AditivosHero() {
   <div className="hero-body">
     <div className="container">
       <h1 className="title has-text-white is">
-        ADITIVOS de PERFORMANCE
-      </h1>
+      Aditivos Funcionais      </h1>
       <h2 className="subtitle has-text-white">
       Estes concentrados de aditivos são formulados para proporcionar melhor desempenho aos artefatos plásticos, atendendo a
     diversas exigências técnicas: proteção a intempéries e radiação UV; evitar a propagação de chama; resistência ao impacto;

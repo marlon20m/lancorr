@@ -85,10 +85,6 @@ if (environment === "production") {
 
 app.use(express.static(path.join(__dirname, '../build')));
 
-app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "./client/build/index.html"));
-  });
-
 app.set("port", PORT);
 
 app.listen(PORT, err => {
