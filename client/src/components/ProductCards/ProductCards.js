@@ -78,7 +78,7 @@ function ProductCards() {
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="https://i.ibb.co/Zf9w5Jm/Screen-Shot-2020-11-06-at-2-44-48-PM.png" alt="Masterbatches" />
+                      <img src="https://i.ibb.co/gvmqyqd/Inicio-Imagecropped.jpg" alt="Masterbatches" />
                     </figure>
                   </div>
                   <div className="card-content">

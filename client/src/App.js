@@ -19,6 +19,7 @@ import Prisma from "./pages/Representacoes/Prisma";
 import TritecResinas from "./pages/Representacoes/TritecResinas";
 import Representacoes from "./pages/Representacoes/Representacoes";
 import Contato from "./pages/Contato/Contato";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import Footer from "./components/Footer/Footer";
 
 
@@ -44,6 +45,7 @@ const App = () => {
          <Route  path="/TritecResinas" exact component={TritecResinas} />
          <Route  path="/Contato" exact component={Contato} />
         </Switch> 
+        <ScrollToTop />
         <Footer />
        </div>
      </Router>

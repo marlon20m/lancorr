@@ -21,7 +21,7 @@ function DemoCarousel() {
             emulateTouch={true}>
                 
                 <div>
-                <section className="hero carousel-inicio is-medium has-bg-img"> 
+                <section className="hero third-carousel-homepage is-medium has-bg-img"> 
                 <div className="hero-body"> 
                     <div className="container has-text-left"> 
                     <br />
@@ -30,12 +30,13 @@ function DemoCarousel() {
                 </h1>
                     <br />
                     <br />
+                    <br />
                     </div> 
                 </div> 
                 </section>
                 </div>
             <div>
-              <section className="hero inicial-hero-homepage is-medium has-bg-img"> 
+              <section className="hero carousel-inicio is-medium has-bg-img"> 
                 <div className="hero-body"> 
                  <div className="container has-text-left"> 
                     <br />
@@ -44,18 +45,20 @@ function DemoCarousel() {
                       </h1>
                         <br />
                        <br />
+                       <br />
                       </div> 
                     </div> 
                   </section>
                 </div>
                 
-                <section className="hero third-carousel-homepage is-medium has-bg-img"> 
+                <section className="hero inicial-hero-homepage is-medium has-bg-img"> 
                 <div className="hero-body"> 
                  <div className="container has-text-left"> 
                     <br />
                       <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
                         Produtos e Serviços Para <br /> Transformação de Plásticos
                       </h1>
+                        <br />
                         <br />
                        <br />
                       </div> 

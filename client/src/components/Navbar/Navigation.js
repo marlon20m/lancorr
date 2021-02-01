@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink as AnchorLink } from 'react-router-hash-link';
 import "react-bulma-components/lib/components/navbar";
 
 function Navigation() {
@@ -24,7 +25,7 @@ function Navigation() {
       <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-end">
       <Link to="/" className="navbar-item" >Início</Link>
-      <Link to="/QuemSomos" className="navbar-item">Quem Somos</Link>
+      <AnchorLink to="/QuemSomos/#section1" className="navbar-item">Quem Somos</AnchorLink>
       <div className="navbar-item has-dropdown is-hoverable">
       <Link to="/Produtos" className="navbar-link">Produtos</Link>
         <div className="navbar-dropdown is-right">
@@ -48,10 +49,10 @@ function Navigation() {
       <div className="navbar-item has-dropdown is-hoverable">
        <Link to="/Representacoes" className="navbar-link" >Representações</Link>
         <div className="navbar-dropdown is-right">
-          <Link to="/Beplast/#section1" className="navbar-item">BEPLAST</Link>
-          <Link to="/EcoVentures/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</Link>
-          <Link to="/Prisma/#section3" className="navbar-item">PRISMA</Link>
-          <Link to="/TritecResinas/#section4" className="navbar-item">TRITEC RESINAS</Link>
+        <AnchorLink to="/Representacoes/#section1" className="navbar-item">BEPLAST</AnchorLink>
+        <AnchorLink to="/Representacoes/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</AnchorLink>
+        <AnchorLink to="/Representacoes/#section3" className="navbar-item">PRISMA</AnchorLink>
+        <AnchorLink to="/Representacoes/#section4" className="navbar-item">TRITEC RESINAS</AnchorLink>
           <Link to="/Representacoes" className="navbar-item" >VER TODOS</Link>
 
           <hr className="navbar-divider" />
@@ -66,7 +67,7 @@ function Navigation() {
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-end">
       <Link to="/" className="navbar-item" >Início</Link>
-      <Link to="/QuemSomos" className="navbar-item">Quem Somos</Link>
+      <AnchorLink to="/QuemSomos/#section1" className="navbar-item">Quem Somos</AnchorLink>
       <div className="navbar-item has-dropdown is-hoverable">
       <Link to="/Produtos" className="navbar-link">Produtos</Link>
         <div className="navbar-dropdown is-right">
@@ -90,10 +91,10 @@ function Navigation() {
       <div className="navbar-item has-dropdown is-hoverable">
       <Link to="/Representacoes" className="navbar-link" >Representações</Link>
         <div className="navbar-dropdown is-right">
-        <Link to="/Beplast/#section1" className="navbar-item">BEPLAST</Link>
-        <Link to="/EcoVentures/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</Link>
-        <Link to="/Prisma/#section3" className="navbar-item">PRISMA</Link>
-        <Link to="/TritecResinas/#section4" className="navbar-item">TRITEC RESINAS</Link>
+        <AnchorLink to="/Representacoes/#section1" className="navbar-item">BEPLAST</AnchorLink>
+        <AnchorLink to="/Representacoes/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</AnchorLink>
+        <AnchorLink to="/Representacoes/#section3" className="navbar-item">PRISMA</AnchorLink>
+        <AnchorLink to="/Representacoes/#section4" className="navbar-item">TRITEC RESINAS</AnchorLink>
         <Link to="/Representacoes" className="navbar-item" >VER TODOS</Link>
 
           <hr className="navbar-divider" />

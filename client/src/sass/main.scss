@@ -24,7 +24,7 @@ body {
 
 .has-bg-img { background: url("https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg")center center; background-size:cover; }
 
-.has-bg-img2 { background: url("https://i.ibb.co/F7PxvHd/Inicio-Image.jpg")bottom left; background-size: cover; }
+.has-bg-img2 { background: url("https://i.ibb.co/kyGnT6c/white-elegant.jpg")bottom left; background-size: cover; }
 
 .aditivos-hero-one { 
     background: url("https://i.ibb.co/W6N2FJn/mohan-murugesan-a-PUi7w4k-Kb-I-unsplash.jpg") center center; background-size: cover; 
@@ -32,7 +32,7 @@ body {
 
 }
 
-.aditivos-bio-hero {
+.bio-hero {
     background: url("https://i.ibb.co/n0TnmtS/Green-Soil.jpg") center center; background-size: cover; 
     font-family: 'Bebas Neue', cursive;
 }
@@ -104,6 +104,13 @@ span {
     text-shadow: 2px 2px 5px navy;
 }
 
+.subtitle-description {
+    font-size: 34px;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px white;
+}
+
 .inicial-hero-homepage {
     background: url("https://i.ibb.co/9sDSyv0/shutterstock-1007708014.jpg") center center; background-size: cover; 
 
@@ -111,6 +118,11 @@ span {
 
 .carousel-inicio {
     background: url("https://i.ibb.co/cXGt9xW/jj-ying-7-JX0-bfiux-Q-unsplash-4.jpg") center center; background-size: cover; 
+}
+
+.scroll-to-top {
+    float: right;
+    margin: 35px;
 }
 
 .control-arrow-control-prev {
