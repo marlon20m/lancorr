@@ -37,6 +37,9 @@ app.post("/Contato", function (req, res, next) {
         auth: {
             user: process.env.USEREMAIL,
             pass: process.env.PASS
+        },
+        tls: {
+            rejectUnauthorized: false
         }
     })
 
