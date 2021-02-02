@@ -18,6 +18,7 @@ import EcoVentures from "./pages/Representacoes/EcoVentures";
 import Prisma from "./pages/Representacoes/Prisma";
 import TritecResinas from "./pages/Representacoes/TritecResinas";
 import Representacoes from "./pages/Representacoes/Representacoes";
+import Servicos from "./pages/Servicos/Servicos"
 import Contato from "./pages/Contato/Contato";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import Footer from "./components/Footer/Footer";
@@ -43,6 +44,7 @@ const App = () => {
          <Route  path="/EcoVentures" exact component={EcoVentures} />
          <Route  path="/Prisma" exact component={Prisma} />
          <Route  path="/TritecResinas" exact component={TritecResinas} />
+         <Route  path="/Servicos" exact component={Servicos} />
          <Route  path="/Contato" exact component={Contato} />
         </Switch> 
         <ScrollToTop />
