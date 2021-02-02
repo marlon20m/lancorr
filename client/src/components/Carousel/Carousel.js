@@ -25,9 +25,9 @@ function DemoCarousel() {
                 <div className="hero-body"> 
                     <div className="container has-text-left"> 
                     <br />
-                    <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
+                    <h2 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
                 Produtos e Serviços Para <br /> Transformação de Plásticos
-                </h1>
+                </h2>
                     <br />
                     <br />
                     <br />
