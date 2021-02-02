@@ -75,13 +75,13 @@ resetForm = () => {
       <div  className="container has-text-centered">
         <div className="columns is-8 is-variable ">
           <div className="column is-two-thirds has-text-left">
-            <h1 className="title is-1">Contatenos</h1>
+            <h1 className="title is-1">Contato</h1>
             <p className="is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi soluta
               voluptate facere molestiae consequatur.</p>
           </div>
           <form onSubmit={this.formSubmit} className="column is-one-third has-text-left">
             <div className="field">
-              <label className="label">Name</label>
+              <label className="label">Nome</label>
               <div className="control">
                 <input className="input is-medium" 
                 type="text" 
@@ -95,6 +95,7 @@ resetForm = () => {
               <div className="control">
                 <input className="input is-medium" 
                 type="text"
+                placeholder="Email"
                 value={this.state.email} 
                 onChange={this.handleEmail}
                 required
@@ -102,16 +103,17 @@ resetForm = () => {
               </div>
             </div>
             <div className="field">
-              <label id="text" className="label">Message</label>
+              <label id="text" className="label">Mensagem</label>
               <div className="control">
                 <textarea id="text" 
+                placeholder="Mensagem"
                 className="textarea is-medium" 
                 value={this.state.message} 
                 onChange={this.handleMessage} 
                 />
               </div>
             </div>
-              <div className={this.state.sent ? "msg msgAppear" : "msg"}>Message has been sent</div>
+              <div className={this.state.sent ? "msg msgAppear" : "msg"}></div>
             <div className="btn" >
               <button type="submit" className="button is-link is-fullwidth has-text-weight-medium is-medium">Submit</button>
             </div>

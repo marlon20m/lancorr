@@ -1,6 +1,5 @@
 import React from "react";
 import "react-bulma-components/lib/components/navbar";
-import EcoVentures from "../../pages/Representacoes/EcoVentures";
 
 function RepresentacoesCard() {
 
