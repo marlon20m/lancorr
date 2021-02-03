@@ -5,7 +5,7 @@ import "react-bulma-components/lib/components/navbar";
 
 const Navigation = (props) => {
   function toggleBurgerMenu() {
-    document.querySelector('.navbar-menu').classList.toggle('is-active');
+    // document.querySelector('.navbar-menu').classList.toggle('is-active');
   }
   return (
     <nav className="navbar fixed-navbar is-spaced navbar-bg" role="navigation" aria-label="main navigation">
@@ -21,7 +21,7 @@ const Navigation = (props) => {
       aria-label="menu"
       aria-expanded="true"
       data-target="navbarBasicExample"
-      onClick={toggleBurgerMenu}
+      // onClick={toggleBurgerMenu}
     >
       <span aria-hidden="true" />
       <span aria-hidden="true" />
