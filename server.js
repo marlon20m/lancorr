@@ -8,6 +8,7 @@ require("dotenv").config();
 const cors = require("cors");
 const app = express();
 
+
 console.log(process.env);
 
 app.use(bodyParser.json());

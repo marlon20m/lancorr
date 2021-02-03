@@ -23,7 +23,6 @@ import Contato from "./pages/Contato/Contato";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import Footer from "./components/Footer/Footer";
 
-
 const App = () => {
     return (
      <Router>
