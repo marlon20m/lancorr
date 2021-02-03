@@ -42,8 +42,8 @@ app.post("/Contato", function (req, res, next) {
     })
 
     let mailOptions = {
-        from: "marlon.giraldo@outlook.com",
-        to: "marlon.giraldo@outlook.com",
+        from: "contato.lancorr@outlook.com",
+        to: "contato.lancorr@outlook.com",
         subject: `Message from ${data.name}`,
         html: `
     
