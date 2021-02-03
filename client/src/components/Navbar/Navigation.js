@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import { HashLink as AnchorLink } from 'react-router-hash-link';
 import "react-bulma-components/lib/components/navbar";
 
-function Navigation () {
+const Navigation = (props) => {
+  function toggleBurgerMenu() {
+    document.querySelector('.navbar-menu').classList.toggle('is-active');
+    // document.querySelector('.navbar-menu').classList.toggle('is-active');
+  }
   return (
     <nav className="navbar fixed-navbar is-spaced navbar-bg" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
@@ -18,7 +22,7 @@ function Navigation () {
       aria-label="menu"
       aria-expanded="true"
       data-target="navbarBasicExample"
-      // onClick={toggleBurgerMenu}
+      onClick={toggleBurgerMenu}
     >
       <span aria-hidden="true" />
       <span aria-hidden="true" />
