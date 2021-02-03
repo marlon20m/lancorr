@@ -61,7 +61,7 @@ resetForm = () => {
     this.setState({
         sent: false,
      })
-  }, 3000)
+  }, 1000)
 }
 
 
