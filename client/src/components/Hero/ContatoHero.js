@@ -9,6 +9,7 @@ export default class ContatoHero extends Component {
   state={
     name:"",
     email:"",
+    telefone:"",
     message:"",
     sent: false
   }
@@ -24,6 +25,12 @@ export default class ContatoHero extends Component {
       email:e.target.value
     })
   }
+
+  handleTelefone = (e) => {
+    this.setState({
+      telefone:e.target.value
+    })
+  }
   
   handleMessage = (e) => {
     this.setState({
@@ -36,6 +43,7 @@ export default class ContatoHero extends Component {
     let data = {
       name:this.state.name,
       email:this.state.email,
+      telefone:this.state.email,
       message:this.state.message
     }
       axios.post("https://lancorr.herokuapp.com/Contato", data)
@@ -54,6 +62,7 @@ resetForm = () => {
   this.setState({
     name:"",
     email:"",
+    telefone:"",
     message:""
   })
 
@@ -79,6 +88,7 @@ resetForm = () => {
             <br />
             <p className="is-size-4"> contato@lancorr.com</p>
           </div>
+
           <form onSubmit={this.formSubmit} className="column is-one-third has-text-left">
             <div className="field">
               <label className="label">Nome</label>
@@ -98,6 +108,18 @@ resetForm = () => {
                 placeholder="Email"
                 value={this.state.email} 
                 onChange={this.handleEmail}
+                required
+                 />
+              </div>
+            </div>
+            <div className="field">
+              <label id="telefone" className="label">Telefone</label>
+              <div className="control">
+                <input className="input is-medium" 
+                type="text"
+                placeholder="Telefone"
+                value={this.state.telefone} 
+                onChange={this.handleTelefone}
                 required
                  />
               </div>

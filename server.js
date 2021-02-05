@@ -53,6 +53,8 @@ app.post("/Contato", function (req, res, next) {
         <br></br>
         <li>Email: ${data.email}</li>
         <br></br>
+        <li>Email: ${data.telefone}</li>
+        <br></br>
         <li>Message: ${data.message}</li>
         <br></br>
         </ul>
