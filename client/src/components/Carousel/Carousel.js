@@ -6,66 +6,90 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 function DemoCarousel() {
-        return (
+  return (
 
-            <Carousel autoPlay={true}
-            showArrows={true}
-            infiniteLoop={true}
-            interval={4500}
-            stopOnHover={false}
-            swipeable={true}
-            showThumbs={false}
-            showStatus={false}
-            showIndicators={true}
-            transitionTime={650}
-            emulateTouch={true}>
-                
-                <div>
-                <section className="hero third-carousel-homepage is-medium has-bg-img"> 
-                <div className="hero-body"> 
-                    <div className="container has-text-left"> 
-                    <br />
-                    <h2 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
+    <Carousel autoPlay={true}
+      showArrows={true}
+      infiniteLoop={true}
+      interval={4500}
+      stopOnHover={false}
+      swipeable={true}
+      showThumbs={false}
+      showStatus={false}
+      showIndicators={true}
+      transitionTime={650}
+      emulateTouch={true}>
+
+      <div>
+        <section className="hero third-carousel-homepage is-medium has-bg-img">
+          <div className="hero-body">
+            <div className="container has-text-left inicio-hero-one">
+              <br />
+              <br />
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <h2 className="title has-text-white has-text-left is-size-2 is-size-3-mobile is-uppercase">
                 Produtos e Serviços Para <br /> Transformação de Plásticos
                 </h2>
-                    <br />
-                    <br />
-                    <br />
-                    </div> 
-                </div> 
-                </section>
-                </div>
-            <div>
-              <section className="hero carousel-inicio is-medium has-bg-img"> 
-                <div className="hero-body"> 
-                 <div className="container has-text-left"> 
-                    <br />
-                      <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
-                        Produtos e Serviços Para <br /> Transformação de Plásticos
+              <br />
+              <br />
+              <br />
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div>
+        <section className="hero carousel-inicio is-medium has-bg-img">
+          <div className="hero-body">
+            <div className="container has-text-left inicio-hero-one">
+              <br />
+              <br />
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <h1 className="title has-text-white  has-text-left is-size-2 is-size-3-mobile is-uppercase">
+                Produtos e Serviços Para <br /> Transformação de Plásticos
                       </h1>
-                        <br />
-                       <br />
-                       <br />
-                      </div> 
-                    </div> 
-                  </section>
-                </div>
-                
-                <section className="hero inicial-hero-homepage is-medium has-bg-img"> 
-                <div className="hero-body"> 
-                 <div className="container has-text-left"> 
-                    <br />
-                      <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-uppercase">
-                        Produtos e Serviços Para <br /> Transformação de Plásticos
-                      </h1>
-                        <br />
-                        <br />
-                       <br />
-                      </div> 
-                    </div> 
-                  </section>
-            </Carousel>
-        );
-    }
+              <br />
+              <br />
+              <br />
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+              <br className="m_br"></br>
+            </div>
+          </div>
+        </section>
+      </div>
 
-    export default DemoCarousel;
+      <section className="hero inicial-hero-homepage is-medium has-bg-img">
+        <div className="hero-body">
+          <div className="container has-text-left inicio-hero-one">
+            <br />
+            <br />
+            <br className="m_br"></br>
+            <br className="m_br"></br>
+            <br className="m_br"></br>
+            <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-size-3-mobile is-uppercase">
+              Produtos e Serviços Para <br /> Transformação de Plásticos
+                      </h1>
+            <br />
+            <br />
+            <br />
+            <br className="m_br"></br>
+            <br className="m_br"></br>
+            <br className="m_br"></br>
+            <br className="m_br"></br>
+          </div>
+        </div>
+      </section>
+    </Carousel>
+  );
+}
+
+export default DemoCarousel;
