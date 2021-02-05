@@ -11,7 +11,7 @@ const Navigation = (props) => {
   return (
     <nav className="navbar fixed-navbar is-spaced navbar-bg" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
-    <a className="navbar-item-img-max-height" href="https://www.lancorr.com">
+    <a className="navbar-item-img-max-height" href="/">
       <img
         className="lancorrLogo" src="https://i.ibb.co/DkLN9KG/Lan-Corr-Logo.jpg" alt="Logo"
         />
