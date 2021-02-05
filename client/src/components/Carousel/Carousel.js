@@ -26,19 +26,19 @@ function DemoCarousel() {
             <div className="container has-text-left inicio-hero-one">
               <br />
               <br />
-              <br className="m_br"></br>
-              <br className="m_br"></br>
-              <br className="m_br"></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <h2 className="title has-text-white has-text-left is-size-2 is-size-3-mobile is-uppercase">
                 Produtos e Serviços Para <br /> Transformação de Plásticos
                 </h2>
               <br />
               <br />
               <br />
-              <br className="m_br"></br>
-              <br className="m_br"></br>
-              <br className="m_br"></br>
-              <br className="m_br"></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </div>
         </section>
@@ -49,19 +49,19 @@ function DemoCarousel() {
             <div className="container has-text-left inicio-hero-one">
               <br />
               <br />
-              <br className="m_br"></br>
-              <br className="m_br"></br>
-              <br className="m_br"></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <h1 className="title has-text-white  has-text-left is-size-2 is-size-3-mobile is-uppercase">
                 Produtos e Serviços Para <br /> Transformação de Plásticos
                       </h1>
               <br />
               <br />
               <br />
-              <br className="m_br"></br>
-              <br className="m_br"></br>
-              <br className="m_br"></br>
-              <br className="m_br"></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </div>
         </section>
@@ -72,19 +72,19 @@ function DemoCarousel() {
           <div className="container has-text-left inicio-hero-one">
             <br />
             <br />
-            <br className="m_br"></br>
-            <br className="m_br"></br>
-            <br className="m_br"></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <h1 className="title has-text-white inicio-hero-one has-text-left is-size-2 is-size-3-mobile is-uppercase">
               Produtos e Serviços Para <br /> Transformação de Plásticos
                       </h1>
             <br />
             <br />
             <br />
-            <br className="m_br"></br>
-            <br className="m_br"></br>
-            <br className="m_br"></br>
-            <br className="m_br"></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
           </div>
         </div>
       </section>
