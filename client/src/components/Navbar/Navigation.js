@@ -60,13 +60,13 @@ const Navigation = (props) => {
         <div className="navbar-item has-dropdown is-hoverable">
         <Link to="/Servicos" className="navbar-link" to="/Servicos">Serviços</Link>
         <div className="navbar-dropdown is-right">
-        <Link to="/Industrializacao" className="navbar-item">INDUSTRIALIZAÇAO</Link>
-        <Link to="/Desenvolvimentos" className="navbar-item">DESENVOLVIMENTOS</Link>
+        <AnchorLink to="/Industrializacao/#section1" className="navbar-item">INDUSTRIALIZAÇAO</AnchorLink>
+        <AnchorLink to="/Desenvolvimentos/#section2" className="navbar-item">DESENVOLVIMENTOS</AnchorLink>
         </div>
         </div>
 
       <div className="navbar-item has-dropdown is-hoverable">
-      <Link to="/Representacoes" className="navbar-link" >Representações</Link>
+      <Link to="/Representacoes" className="navbar-link" >Parceiros Estratégicos</Link>
         <div className="navbar-dropdown is-right">
         <AnchorLink to="/Representacoes/#section1" className="navbar-item">BEPLAST</AnchorLink>
         <AnchorLink to="/Representacoes/#section2" className="navbar-item">ECO VENTURES BIOPLASTICS</AnchorLink>

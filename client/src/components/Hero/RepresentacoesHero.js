@@ -9,9 +9,8 @@ function Representações() {
         <div className="container has-text-left"> 
         <br />
         <h1 className="title has-text-left beplast-hero has-text-weight-bold title-text-ah is-size-2 is-size-3-mobile is-uppercase">
-        Representações
+        Parceiros Estratégicos
         </h1>
-       
         </div> 
       </div> 
     </section>
