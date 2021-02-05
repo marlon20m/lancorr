@@ -16,8 +16,7 @@ const Navigation = (props) => {
         className="lancorrLogo" src="https://i.ibb.co/DkLN9KG/Lan-Corr-Logo.jpg" alt="Logo"
         />
     </a>
-    <a 
-      role="button"
+    <div role="button"
       className="navbar-burger burger"
       aria-label="menu"
       aria-expanded="true"
@@ -28,7 +27,7 @@ const Navigation = (props) => {
       <span aria-hidden="true" />
       <span aria-hidden="true" />
       
-    </a>
+    </div>
   </div>
 
 
@@ -58,7 +57,7 @@ const Navigation = (props) => {
           </div>
         </div>
         <div className="navbar-item has-dropdown is-hoverable">
-        <Link to="/Servicos" className="navbar-link" to="/Servicos">Serviços</Link>
+        <Link to="/Servicos" className="navbar-link">Serviços</Link>
         <div className="navbar-dropdown is-right">
         <AnchorLink to="/Industrializacao/#section1" className="navbar-item">INDUSTRIALIZAÇAO</AnchorLink>
         <AnchorLink to="/Desenvolvimentos/#section2" className="navbar-item">DESENVOLVIMENTOS</AnchorLink>

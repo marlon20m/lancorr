@@ -23,7 +23,7 @@ function RepresentacoesCard() {
                         de plásticos, sendo um referencial de excelência no mercado nacional. Apresenta duas unidades industriais estabelecidas em São Leopoldo/RS,
     e Sobral/CE, que atendem a diversos segmentos: agrícola; automotivo; calçadista; utilidades domésticas; eletroeletrônico; embalagens; etc.</p>
                         <br />
-                        <a href="http://beplast.com.br" target="_blank" className="button is-primary">Website</a>
+                        <a href="http://beplast.com.br" target="_blank" rel="noreferrer" className="button is-primary">Website</a>
                       </div>
                     </div>
                     <div className="column is-7 post-img ">
@@ -51,7 +51,7 @@ function RepresentacoesCard() {
                         <h1 className="title post-title has-text-link">Eco Ventures Bioplastics</h1>
                         <p className="post-excerpt">This template is based off of the official default blog template created by the fine folks over at <a href="https://ghost.io">Ghost</a>. If you are looking for a fully featured blog platform, I highly recommend checking them out!</p>
                         <br />
-                        <a href="http://www.ecoventuresbrasil.com" target="_blank" className="button is-primary">Website</a>
+                        <a href="http://www.ecoventuresbrasil.com" target="_blank" rel="noreferrer" className="button is-primary">Website</a>
                       </div>
                     </div>
                     <div className="column is-7 post-img ">
@@ -79,11 +79,11 @@ function RepresentacoesCard() {
                         <h1 className="title post-title has-text-link">Prisma</h1>
                         <p className="post-excerpt">This template is based off of the official default blog template created by the fine folks over at <a href="https://ghost.io">Ghost</a>. If you are looking for a fully featured blog platform, I highly recommend checking them out!</p>
                         <br />
-                        <a href="http://www.prismatermoplasticos.com.br" target="_blank" className="button is-primary">Website</a>
+                        <a href="http://www.prismatermoplasticos.com.br" target="_blank" rel="noreferrer" className="button is-primary">Website</a>
                       </div>
                     </div>
                     <div className="column is-7 post-img ">
-                      <a href="http://www.prismatermoplasticos.com.br" target="_blank">
+                      <a href="http://www.prismatermoplasticos.com.br" target="_blank" rel="noreferrer">
                         <img src="https://i.ibb.co/D8f4LjH/Screen-Shot-2020-11-08-at-9-26-39-PM.png" alt="Eco Ventures Bioplastics" />
                       </a>
                     </div>

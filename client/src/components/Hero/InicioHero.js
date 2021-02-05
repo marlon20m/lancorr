@@ -26,7 +26,6 @@ function InicioHero() {
         <div className="hero-body">
           <div className="container">
             <div className="column is-mobile">
-              <h1 className="subtitle-description"></h1>
               <h2 className="subtitle-description">
                 Missão:
                 <br />

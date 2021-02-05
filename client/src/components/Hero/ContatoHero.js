@@ -75,8 +75,7 @@ resetForm = () => {
       <div  className="container has-text-centered">
         <div className="columns is-8 is-variable ">
           <div className="column is-two-thirds has-text-left">
-            <h1 className="title is-1">Contato</h1>
-            <p className="is-size-4"> Fale conosco :</p>
+            <h1 className="title is-1">Fale conosco:</h1>
             <br />
             <p className="is-size-4"> contato@lancorr.com</p>
           </div>
