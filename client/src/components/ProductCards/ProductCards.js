@@ -23,7 +23,7 @@ function ProductCards() {
                   <div className="card-content">
                     <div className="content">
                       <h4>Aditivos Funcionais</h4>
-                      <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
+                      <p>Estes concentrados de aditivos são formulados para proporcionar melhor desempenho aos artefatos...</p>
                     </div>
                   </div>
                 </div>
@@ -41,7 +41,7 @@ function ProductCards() {
                   <div className="card-content">
                     <div className="content">
                       <h4>Aditivos Biodegradáveis</h4>
-                      <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
+                      <p> Os plásticos precisam de milhares de anos para se degradarem quando descartados. As resinas Go Green P-Life oferecem...</p>
                     </div>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ function ProductCards() {
                   <div className="card-content">
                     <div className="content">
                       <h4>Compostos Termoplásticos</h4>
-                      <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
+                      <p>Os compostos termoplásticos são formulados a partir de blendas de polímeros, aditivos, reforços, e outros...</p>
                     </div>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ function ProductCards() {
                   <div className="card-content">
                     <div className="content">
                       <h4>Masterbatches</h4>
-                      <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
+                      <p>Através da aplicação de concentrados de cor, formulados nos mais diversos tipos de polímeros...</p>
                     </div>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ function ProductCards() {
                   <div className="card-content">
                     <div className="content">
                       <h4>Resinas Petroquímicas</h4>
-                      <p>Purus semper eget duis at tellus at urna condimentum mattis. </p>
+                      <p>Estes produtos são os polímeros plásticos utilizados em todos os tipos de processamento e transformação...</p>
                     </div>
                   </div>
                 </div>

@@ -22,8 +22,10 @@ function AditivosBioHero() {
             <h1 className="title has-text-white is">
               Aditivos Biodegradaveis      </h1>
             <h2 className="subtitle has-text-white">
-              Através da aplicação de concentrados de cor, formulados nos mais diversos tipos de polímeros, obtém-se características diferenciadas
-              como: pigmentação/cores, efeitos, e acabamentos especiais.
+            Os plásticos precisam de milhares de anos para se degradarem quando descartados.
+    As resinas Go Green P-Life oferecem uma solução sustentável e ecologicamente correta, porque são produtos de origem natural
+    que transformam qualquer plástico em plástico BIODEGRADÁVEL, sendo o único produto com certificação internacional
+    a atender integralmente a normativa  ASTM 6954-4 – SPCR 141.
       </h2>
           </div>
         </div>
