@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from "../../components/Navbar/Navigation";
 import ServicosHero from "../../components/Hero/ServicosHero";
-import RepresentacoesCard from "../../components/RepresentCards/RepresentacoesCard";
+import ServicosCard from "../../components/ServicosCard/ServicosCard";
 import "react-bulma-components/lib/components/navbar";
 import "../../sass/main.scss";
 
@@ -10,7 +10,7 @@ function Servicos() {
         <>
         <Navigation />
         <ServicosHero />
-        <RepresentacoesCard />
+        <ServicosCard />
          </>
     )
 }
