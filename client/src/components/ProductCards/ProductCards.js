@@ -13,7 +13,7 @@ function ProductCards() {
           <section className="container">
             <div className="columns is-spaced ">
               <div className="column is-4" data-target="modal-card">
-              <a href="/AditivosFuncionais" class="custom-card">
+              <a href="/AditivosFuncionais" className="custom-card">
                 <div className="card is-shady">
                   <div className="card-image">
                     <figure className="image is-4by3">
