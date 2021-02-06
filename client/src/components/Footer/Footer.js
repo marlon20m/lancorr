@@ -5,9 +5,12 @@ function Hero() {
   return (
     <>
       <footer className="footer">
-        <div className="content has-text-centered">
+        <div className="content has-text-centered is-link">
+        <p>Lancorr<br />
+             E-mail: contato@lancorr.com
+          </p>
           <p>
-            <strong>Lancorr</strong> Web Design & Development by <a href="https://marlonmoraportfolio.herokuapp.com/" target="_blank" rel="noreferrer">Marlon A Mora</a>
+             Web Design & Development by <a href="https://marlonmoraportfolio.herokuapp.com/" target="_blank" rel="noreferrer">Marlon A Mora</a>
           </p>
         </div>
       </footer>

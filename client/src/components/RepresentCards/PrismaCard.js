@@ -84,7 +84,7 @@ function PrismaCard() {
                       </div>
                       <div className="column is-7 post-img ">
                         <a href="http://www.prismatermoplasticos.com.br" target="_blank">
-                        <img src="https://i.ibb.co/D8f4LjH/Screen-Shot-2020-11-08-at-9-26-39-PM.png" alt="Eco Ventures Bioplastics" />
+                        <img src="https://i.ibb.co/CHfJDtL/Screen-Shot-2021-02-05-at-9-21-07-PM.png" alt="Eco Ventures Bioplastics" />
                         </a>
                       </div>
                     </article>
