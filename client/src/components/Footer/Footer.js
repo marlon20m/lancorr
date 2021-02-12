@@ -10,7 +10,7 @@ function Hero() {
              E-mail: contato@lancorr.com
           </p>
           <p>
-             Web Design & Development by <a href="https://marlonmoraportfolio.herokuapp.com/" target="_blank" rel="noreferrer">Marlon A Mora</a>
+             Web Design & Development by <a href="www.linkedin.com/in/giraldo-marlon" target="_blank" rel="noreferrer">Marlon A Mora</a>
           </p>
         </div>
       </footer>
