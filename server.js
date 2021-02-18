@@ -21,6 +21,12 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.get('*.js', function (req, res, next) {
+    req.url = req.url + '.gz';
+    res.set('Content-Encoding', 'gzip');
+    next();
+  });
+
 
 app.options("/send", cors());
 app.get("/send", cors(), (req, res, next) => {
