@@ -10,6 +10,9 @@ const cors = require("cors");
 const app = express();
 
 
+app.use(compression());
+
+
 console.log(process.env);
 
 app.use(bodyParser.json());
@@ -22,7 +25,6 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use(compression());
 
 app.options("/send", cors());
 app.get("/send", cors(), (req, res, next) => {
