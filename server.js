@@ -10,7 +10,6 @@ const cors = require("cors");
 const app = express();
 
 
-app.use(compression());
 
 
 console.log(process.env);
@@ -99,3 +98,5 @@ app.listen(PORT, err => {
 
     console.log(`App running on port ${PORT}!`);
 });
+
+app.use(compression());
