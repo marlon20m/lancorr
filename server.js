@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const PORT = process.env.PORT || 3001;
 const path = require("path");
+const compression = require('compression')
 require("dotenv").config();
 const cors = require("cors");
 const app = express();
@@ -21,25 +22,13 @@ app.use(function (req, res, next) {
     next();
 });
 
+app.use(compression());
 
 app.options("/send", cors());
 app.get("/send", cors(), (req, res, next) => {
     res.json({ message: "welcome to my contact form" });
 })
 
-app.get('*.js', function(req, res, next) {
-    req.url = req.url + '.gz';
-    res.set('Content-Encoding', 'gzip');
-    res.set('Content-Type', 'text/javascript');
-    next();
-  });
-  
-  app.get('*.css', function(req, res, next) {
-    req.url = req.url + '.gz';
-    res.set('Content-Encoding', 'gzip');
-    res.set('Content-Type', 'text/css');
-    next();
-  });
 
 app.options("/Contato", cors())
 

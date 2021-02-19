@@ -1,10 +1,8 @@
-const CompressionPlugin = require("compression-webpack-plugin");
-
 module.exports = {
     entry: './client/index.js',
     output: {
       path: __dirname + '/public',
-      filename: 'bundle.js.gz'
+      filename: 'bundle.js'
     },
     module: {
       loaders: [
@@ -31,21 +29,14 @@ module.exports = {
     },
     devtool: 'source-map',
     plugins: [
-      new webpack.DefinePlugin({ 
+      new webpack.DefinePlugin({ // <-- key to reducing React's size
         'process.env': {
           'NODE_ENV': JSON.stringify('production')
         }
       }),
-      new webpack.optimize.DedupePlugin(),
-      new webpack.optimize.UglifyJsPlugin(),
-      new webpack.optimize.AggressiveMergingPlugin(),
-      new CompressionPlugin({
-        filename: "[path].gz[query]",
-        algorithm: "gzip",
-        test: /\.js$|\.css$|\.html$/,
-        threshold: 10240,
-        minRatio: 0.8
-      })
+      new webpack.optimize.DedupePlugin(), //dedupe similar code 
+      new webpack.optimize.UglifyJsPlugin(), //minify everything
+      new webpack.optimize.AggressiveMergingPlugin()//Merge chunks 
     ]
   }
 
