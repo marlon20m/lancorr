@@ -40,7 +40,7 @@ module.exports = {
       new webpack.optimize.UglifyJsPlugin(),
       new webpack.optimize.AggressiveMergingPlugin(),
       new CompressionPlugin({
-        asset: "[path].gz[query]",
+        filename: "[path].gz[query]",
         algorithm: "gzip",
         test: /\.js$|\.css$|\.html$/,
         threshold: 10240,
