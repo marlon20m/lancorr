@@ -4,9 +4,13 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const PORT = process.env.PORT || 3001;
 const path = require("path");
+const compression = require('compression')
 require("dotenv").config();
 const cors = require("cors");
 const app = express();
+
+
+app.use(compression());
 
 
 console.log(process.env);
@@ -95,4 +99,3 @@ app.listen(PORT, err => {
 
     console.log(`App running on port ${PORT}!`);
 });
-
