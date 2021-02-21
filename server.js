@@ -4,13 +4,9 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const PORT = process.env.PORT || 3001;
 const path = require("path");
-const compression = require('compression')
 require("dotenv").config();
 const cors = require("cors");
 const app = express();
-
-
-app.use(compression());
 
 
 console.log(process.env);
@@ -91,6 +87,12 @@ app.use(express.static(path.join(__dirname, '../build')));
 
 app.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  });
+
+app.get('*.js', function (req, res, next) {
+    req.url = req.url + '.gz';
+    res.set('Content-Encoding', 'gzip');
+    next();
   });
 
 app.set("port", PORT);
