@@ -22,11 +22,12 @@ function AditivosBioHero() {
             <h1 className="title has-text-white is">
               Aditivos Biodegradaveis      </h1>
             <h2 className="subtitle has-text-white">
-            Os plásticos precisam de milhares de anos para se degradarem quando descartados.
-    As resinas Go Green P-Life oferecem uma solução sustentável e ecologicamente correta, porque são produtos de origem natural
-    que transformam qualquer plástico em plástico BIODEGRADÁVEL, sendo o único produto com certificação internacional
-    a atender integralmente a normativa  ASTM 6954-4 – SPCR 141.
-      </h2>
+              Os plásticos precisam de milhares de anos para se degradarem após descartados. As resinas <b>Go Green P-Life</b>, produzidas no Brasil
+              pela <b>Eco Ventures Bioplastics</b>, oferecem uma solução sustentável e ecologicamente correta, porque são produtos de origem natural
+              e atóxicos que transtormam qualquer plástico derivado da nafta(PE;PP;PS;PET; entre outros) em plastico <b>Biodegradável</b>.
+              A alta tecnologia aplicada pela <b>EVB</b> garantiu o reconhecimento como o unico produto Com certificaçao intemacional a atender integralmente
+              a normativa ASTM 6954-4/SCPR 141.
+            </h2>
           </div>
         </div>
       </section>

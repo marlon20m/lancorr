@@ -9,8 +9,8 @@ function CompostosHero() {
           <div className="container has-text-left">
             <h1 className="title has-text-white has-text-weight-bold title-text-ah is-size-1 is-size-3-mobile is-uppercase">
               Compostos<br />
-        Termoplásticos
-      </h1>
+              Termoplásticos
+            </h1>
             <br />
             <br />
             <br />
@@ -23,9 +23,11 @@ function CompostosHero() {
             <h1 className="title has-text-white is">
               Compostos Termoplásticos      </h1>
             <h2 className="subtitle has-text-white">
-              Os compostos termoplásticos são formulados a partir de blendas de polímeros, aditivos, reforços, e outros insumos, que incorporados à resina base
-              modificam a sua estrutura original proporcionando melhor desempenho técnico.
-      </h2>
+              Estes compostos são formulados a partir de blendas de polimeros, aditivos, reforços, e outros insumos, que incorporados à
+              resina base modificam a sua estrutura original proporcionando melhor performance técnica.
+              Oferecemos aos clientes o desemvolvimento personalizado para atender aos seus projetos, e tambem dispomos de uma linha
+              de compostos de elastômeros termoplásticos (TPE;TPU;TR) de marcas de renome no mercado nacional e internacional.
+            </h2>
           </div>
         </div>
       </section>
