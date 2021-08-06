@@ -25,7 +25,7 @@ function AditivosBioHero() {
               Os plásticos precisam de milhares de anos para se degradarem após descartados. As resinas <b>Go Green P-Life</b>, produzidas no Brasil
               pela <b>Eco Ventures Bioplastics</b>, oferecem uma solução sustentável e ecologicamente correta, porque são produtos de origem natural
               e atóxicos que transtormam qualquer plástico derivado da nafta(PE;PP;PS;PET; entre outros) em plastico <b>Biodegradável</b>.
-              A alta tecnologia aplicada pela <b>EVB</b> garantiu o reconhecimento como o unico produto Com certificaçao intemacional a atender integralmente
+              A alta tecnologia aplicada pela <b>EVB</b> garantiu o reconhecimento como o unico produto com certificaçao internacional a atender integralmente
               a normativa ASTM 6954-4/SCPR 141.
             </h2>
           </div>

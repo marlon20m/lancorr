@@ -25,7 +25,7 @@ function CompostosHero() {
             <h2 className="subtitle has-text-white">
               Estes compostos são formulados a partir de blendas de polimeros, aditivos, reforços, e outros insumos, que incorporados à
               resina base modificam a sua estrutura original proporcionando melhor performance técnica.
-              Oferecemos aos clientes o desemvolvimento personalizado para atender aos seus projetos, e tambem dispomos de uma linha
+              Oferecemos aos clientes o desenvolvimento personalizado para atender aos seus projetos, e tambem dispomos de uma linha
               de compostos de elastômeros termoplásticos (TPE;TPU;TR) de marcas de renome no mercado nacional e internacional.
             </h2>
           </div>

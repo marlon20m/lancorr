@@ -9,8 +9,8 @@ function ResinasHero() {
           <div className="container has-text-left">
             <h1 className="title has-text-white has-text-weight-bold title-text-ah is-size-1 is-size-3-mobile is-uppercase">
               Resinas<br />
-        Petroquímicas
-      </h1>
+              Petroquímicas
+            </h1>
             <br />
             <br />
             <br />
@@ -25,8 +25,8 @@ function ResinasHero() {
             <h2 className="subtitle has-text-white">
               Estes produtos são os polímeros plásticos utilizados em todos os tipos de processamento e transformação em diversos tipos de manufaturados: embalagens; utilidades domésticas;
               eletroeletrônicos; peças técnicas; tampas; calçados; etc.
-              Algumas resinas comercializdas: ABS; PEAD; PEBD; PEBDL; PP; PS; etc.
-      </h2>
+              Algumas resinas comercializadas: ABS; PEAD; PEBD; PEBDL; PP; PS; etc.
+            </h2>
           </div>
         </div>
       </section>

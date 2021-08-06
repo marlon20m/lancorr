@@ -57,12 +57,9 @@ function RepresentacoesCard() {
                           entre outros) em plástico biodegradável; éo primeiro e único aditivo
                           aprovado em conformidade coma norma ASTM D 6954-4. Trata-se de
                           um produto natural, atóxico, e registrado no FDA de acordo coma
-                          diretiva ROHS
-                          A Eco Ventures Bioplastics é subsidária da Brazil Eco Ventures Inc,
-                          sediada em Aspen(EUA).
-                          Desenvolvem soluções personalizadas de acordo com os objetivos e
-                          interesses de cada cliente.
-                          A aplicação de P-Life transforma embalagens plásticas em produtos
+                          diretiva ROHS. A Eco Ventures Bioplastics é subsidária da Brazil Eco Ventures Inc,
+                          sediada em Aspen(EUA). Desenvolvem soluções personalizadas de acordo com os objetivos e
+                          interesses de cada cliente. A aplicação de P-Life transforma embalagens plásticas em produtos
                           ecologicamente corretos: sacolas;sacos;lixo;garrafas;frascos;fraldas
                           descartáveis;tampas.canudos; etc.</p>
                         <br />
@@ -102,7 +99,7 @@ function RepresentacoesCard() {
                           produtos próprios, e compostos dos principais fabricantes
                           mundiais:
                           TPU Avalon HUNTSMAN;
-                          Elastómeros termoplásticos CELANESE: TPE;TPU;TR
+                          elastômeros termoplásticos CELANESE: TPE;TPU;TR
                           TPU PrismaThane</p>
                         <br />
                         <a href="http://www.prismatermoplasticos.com.br" target="_blank" rel="noreferrer" className="button is-primary">Website</a>
@@ -140,7 +137,8 @@ function RepresentacoesCard() {
 
                       </div>
                     </div>
-
+                    <div className="column is-7 post-img ">
+                      <img src="https://i.ibb.co/NxDzbVL/Tritec-Petroquimica-Industria.png" alt="Tritec-Petroquimica-Industria" />                    </div>
                   </article>
                 </div>
               </div>
