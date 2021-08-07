@@ -14,7 +14,7 @@ function InicioHero() {
             <h1 className="subtitle has-text-white">
               A LANCORR Consultoria e Representações iniciou as suas atividades em 2011, idealizada com o propósito de oferecer soluções ao setor de transformação de plásticos
               através de desenvolvimentos customizados, e de um diversificado portfólio de produtos, embasada na experiência em gestão de negócios e em relacionamentos com
-              grandes empresas dos setores químico e petroquímico. O projeto viabilizou-se por alianças estratégicas com empresas referenciais destes segmentos.
+              grandes empresas dos setores químico e petroquímico. O projeto viabilizou-se por alianças estratégicas com empresas referências destes segmentos.
             </h1>
             <br />
           </div>
