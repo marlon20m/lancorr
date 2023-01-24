@@ -27,8 +27,7 @@
     "react-responsive-carousel": "^3.2.10",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.3.1",
-    "react-scripts": "^4.0.2",
-    "webpack": "^5.75.0"
+    "react-scripts": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -53,9 +52,7 @@
   },
   "devDependencies": {
     "bulma": "^0.9.1",
-    "compression-webpack-plugin": "^10.0.0",
     "css-loader": "^5.0.0",
-    "mini-css-extract-plugin": "^1.2.1",
     "node-sass": "^6.0.0",
     "sass-loader": "^10.0.4",
     "style-loader": "^2.0.0",
