@@ -77,47 +77,6 @@ function RepresentacoesCard() {
           </div>
         </div>
       </section>
-      <section className="blog-posts" id={"section3"}>
-        <div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="columns featured-post is-multiline">
-                <div className="column is-12 post">
-                  <article className="columns featured">
-
-                    <div className="column is-5 featured-content va">
-                      <div>
-                        <h3 className="heading post-category">Company Name</h3>
-                        <h1 className="title post-title has-text-link">Prisma</h1>
-                        <p className="post-excerpt">A Prisma Compostos Termoplásticos é especialista no
-                          desenvolvimento de soluções, e na comercialização de
-                          compostos para a indústria de calçados.
-                          Atuando nos principais pólos calçadistas do Brasil, a
-                          empresa disponibiliza qualificada equipe comercial e técnica
-                          para apoiar os projetos de clientes.
-                          Conta com um amplo portfólio, oferecendo ao mercado
-                          produtos próprios, e compostos dos principais fabricantes
-                          mundiais:
-                          TPU Avalon HUNTSMAN;
-                          elastômeros termoplásticos CELANESE: TPE;TPU;TR
-                          TPU PrismaThane</p>
-                        <br />
-                        <a href="http://www.prismatermoplasticos.com.br" target="_blank" rel="noreferrer" className="button is-primary">Website</a>
-                      </div>
-                    </div>
-                    <div className="column is-7 post-img ">
-                      <a href="http://www.prismatermoplasticos.com.br" target="_blank" rel="noreferrer">
-                        <img src="https://i.ibb.co/CHfJDtL/Screen-Shot-2021-02-05-at-9-21-07-PM.png" alt="Eco Ventures Bioplastics" />
-                      </a>
-                    </div>
-                  </article>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="blog-posts" id={"section4"}>
         <div className="container">
           <div className="columns">
